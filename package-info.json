@@ -1,0 +1,39 @@
+{
+	"authors" : ["various artists" ],
+	"description" : "an addon to ppooll holding additional acts",
+	"displayname" : "",
+	"extends" : "ppooll",
+	"extensible" : 0,
+	"homepatcher" : "",
+	"max_version_max" : "none",
+	"max_version_min" : "8",
+	"name" : "ppooll_contributions",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "x64", "aarch64" ],
+			"min_version" : "none"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "x64" ],
+			"min_version" : "none"
+		}
+
+	}
+,
+	"package_extra" : 	{
+
+	}
+,
+	"tags" : [ "audio", "instrument", "versatile" ],
+	"version" : "8.5",
+	"website" : "http://ppooll.klingt.org",
+	"filelist" : 	{
+		"externals" : [],
+		"patchers" : [ ],
+		"help" : [ ],
+		"misc" : [ ],
+		"extras" : [ ]
+	}
+
+}
