@@ -15,3 +15,4 @@ guidelines for contributing a new act:
 - default active status considered and set (clientwindow)
 - ll.blues status correctly set (main issue is the input-channels setting, use tetris@ to set the current state as your default)
 - usability for everybody - no additional resources necessary or included in the package
+- do not violate existing acts! if you got an enhancement for an existing act, first name it with a different name and mention that this is meant to be an update for another act.
