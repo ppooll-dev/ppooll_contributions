@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 632.0, 439.0, 158.0, 168.0 ],
+		"rect" : [ 797.0, 253.0, 158.0, 168.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -118,7 +118,7 @@
 					"bgfillcolor_type" : "gradient",
 					"color" : [ 0.023529411764706, 0.0, 1.0, 0.47 ],
 					"id" : "obj-30",
-					"items" : [ "Cymatics - Future Bass Chord Loop 1 - 140 BPM C# Min.wav", ",", "Cymatics - Perc Loop 3 - 128 BPM.wav", ",", "Cymatics - Hybrid Trap Vocal Loop 6 - 150 BPM F Min.wav", ",", "Cymatics - Boombox Full Drum Loop 23 - 150 BPM.wav", ",", "Cymatics - Bass House Loop 7 - 128 BPM E.wav", ",", "Cymatics - Big Room Loop 1 - 128 BPM C.wav", ",", "Cymatics - Drum & Bass Bass Loop 5 - 174 BPM F#.wav", ",", "Cymatics - Future Bass Drop Loop 1 - 140 BPM D# Min.wav", ",", "Cymatics - Future Bass Drop Loop 6 - 160 BPM G Min.wav", ",", "Cymatics - Future House Loop 4 - 128 BPM Dmin.wav", ",", "Cymatics - G House Drop Loop 4 - 124 BPM F# Min.wav", ",", "Cymatics - G House Drop Loop 6 - 124 BPM G# Min.wav", ",", "Cymatics - Hybrid Trap Drop Loop 10 - 150 BPM F Min.wav", ",", "Cymatics - Hybrid Trap Drop Loop 7 - 150 BPM F Min.wav", ",", "Cymatics - Master Collection Vol 2 Drop Loop 4 - 145 BPM F Min.wav", ",", "Cymatics - Master Collection Vol 2 Drop Loop 6 - 150 BPM F Min.wav", ",", "Cymatics - Super Saw Loop 10 - 128 BPM Dmin.wav", ",", "Cymatics - Super Saw Loop 36 - 128 BPM Gmin.wav", ",", "Cymatics - Shuffle Full Drum Loop 9 - 128 BPM.wav", ",", "Cymatics - Master Collection Vol 2 Full Drum Loop 21 - 150 BPM G.wav", ",", "Cymatics - Shuffle Full Drum Loop 20 - 128 BPM.wav" ],
+					"items" : [ "3dem.aif", ",", "cherokee.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -239,10 +239,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ll.blues.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 0.0, 112.5, 155.0, 53.0 ],
+					"patching_rect" : [ 0.0, 112.0, 155.0, 53.0 ],
 					"varname" : "ll.blues",
 					"viewvisibility" : 1
 				}
@@ -284,10 +284,10 @@
 						"presets" : 0,
 						"tetris_menu" : 0,
 						"title_menu" : 0,
+						"act::active_store" : 0,
 						"ll.blues" : 0,
 						"ll.blues::levels" : 0,
-						"ll.blues::dest_acts" : 0,
-						"ll.blues::dest_channels" : 0,
+						"ll.blues::outputs" : 0,
 						"ll.blues::state" : 0
 					}
 ,
@@ -300,10 +300,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 362.0, 65.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 54, 397, 594, 1106 ],
+						"client_rect" : [ 545, 133, 1800, 849 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 365, 44, 816, 172 ]
+						"storage_rect" : [ 583, 68, 1034, 196 ]
 					}
 ,
 					"text" : "pattrstorage pat",
@@ -353,20 +353,20 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 349.0, 149.0, 107.0, 22.0 ],
 					"restore" : 					{
-						"buffers" : [ "Cymatics - Master Collection Vol 2 Full Drum Loop 21 - 150 BPM G.wav" ],
-						"main_pitch" : [ 0.133333333333333 ],
+						"buffers" : [ "cherokee.aif" ],
+						"main_pitch" : [ 0.78688524590164 ],
 						"master" : [ 0 ],
-						"phasors" : [ 0.325 ],
+						"phasors" : [ 0.39344262295082 ],
 						"pitch" : [ -0.4 ],
-						"pres_menu" : [ "" ],
+						"pres_menu" : [ "_" ],
 						"preset-ramp" : [ 0.0 ],
 						"presets" : [ 0 ],
 						"random" : [ 0 ],
-						"rows" : [ 0.133333333333333 ],
-						"sec_pitch" : [ 0.1 ],
+						"rows" : [ 16.271186440677965 ],
+						"sec_pitch" : [ 0.39344262295082 ],
 						"swap" : [ -1 ],
 						"tetris_menu" : [ "" ],
-						"title_menu" : [ "titlebar" ]
+						"title_menu" : [ "subpatch" ]
 					}
 ,
 					"text" : "autopattr autopattr",
@@ -411,7 +411,7 @@
 					"bgfillcolor_type" : "color",
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"items" : [ "-", ",", "write", ",", "clear!", ",", "TEXT" ],
+					"items" : [ "-", ",", "write", ",", "clear!", ",", "TEXT", ",", "_" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -437,7 +437,7 @@
 					"bgfillcolor_type" : "color",
 					"id" : "obj-11",
 					"ignoreclick" : 1,
-					"items" : "<empty>",
+					"items" : [ "-", ",", "-", ",", "ƒ", "default.json" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -473,20 +473,19 @@
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 777.0, 189.0, 629.0, 491.0 ],
+						"rect" : [ 1014.0, 357.0, 629.0, 491.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -516,25 +515,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"comment" : "",
-									"id" : "obj-20",
-									"index" : 2,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 94.0, 294.0, 30.0, 30.0 ]
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 48.0, 328.0, 68.0, 22.0 ],
+									"text" : "ll.pf ll.blues"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
-									"id" : "obj-18",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 44.0, 294.0, 30.0, 30.0 ]
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 48.0, 290.0, 60.0, 22.0 ],
+									"text" : "mc.pack~"
 								}
 
 							}
@@ -560,8 +559,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -903,13 +902,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-64",
-									"linecount" : 12,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 565.0, 92.5, 50.0, 169.0 ],
-									"text" : "\"Cymatics - Master Collection Vol 2 Full Drum Loop 21 - 150 BPM G.wav\""
+									"patching_rect" : [ 565.0, 92.5, 50.0, 22.0 ],
+									"text" : "pp.2"
 								}
 
 							}
@@ -930,7 +928,7 @@
 								"box" : 								{
 									"id" : "obj-62",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 184.0, 138.0, 56.0, 22.0 ],
@@ -1275,7 +1273,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 67.333333333333343, 178.0, 171.0, 35.0 ],
+									"patching_rect" : [ 67.333333333333343, 178.0, 174.0, 35.0 ],
 									"text" : "2d.wave~ #0_pepper 0. 0. 1 1"
 								}
 
@@ -1427,15 +1425,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"source" : [ "obj-16", 0 ]
+									"destination" : [ "obj-22", 1 ],
+									"source" : [ "obj-16", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"source" : [ "obj-16", 1 ]
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-16", 0 ]
 								}
 
 							}
@@ -1450,6 +1448,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-22", 0 ]
 								}
 
 							}
@@ -1799,20 +1804,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 1 ],
-					"source" : [ "obj-16", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"hidden" : 1,
 					"source" : [ "obj-2", 0 ]
@@ -1822,16 +1813,9 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "actmaker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cymatics edm",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/ppooll_presets/buffer_hostP",
-				"patcherrelativepath" : "../ppooll_presets/buffer_hostP",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1841,151 +1825,182 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ll.actmenu.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ll.actname.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ll.actnamehelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ll.an.js",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/javascripts",
-				"patcherrelativepath" : "../javascripts",
+				"name" : "ll.an2.js",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
+				"patcherrelativepath" : "../../../ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.blues.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions/ll.blues",
-				"patcherrelativepath" : "../abstractions/ll.blues",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/ll.blues",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/ll.blues",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.buffer_menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.ld.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ll.lminmax.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
-				"type" : "JSON",
+				"name" : "ll.makeact.js",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
+				"patcherrelativepath" : "../../../ppooll/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.movewindow.js",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/javascripts",
-				"patcherrelativepath" : "../javascripts",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
+				"patcherrelativepath" : "../../../ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.oct.div.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.og.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.p.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.pattr_ui.js",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/javascripts",
-				"patcherrelativepath" : "../javascripts",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
+				"patcherrelativepath" : "../../../ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.pf.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.psto.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ll.psto1.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.r.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ll.s.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.shut.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.strip#.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ll.wsendback.js",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/javascripts",
-				"patcherrelativepath" : "../javascripts",
+				"name" : "ll.s~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ll.textsize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
+				"patcherrelativepath" : "../../../ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ll_fastforward.mxo",
-				"type" : "iLaX"
+				"name" : "ll.wsendback.js",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
+				"patcherrelativepath" : "../../../ppooll/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ll_fastforward.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/externals/filip",
+				"patcherrelativepath" : "../../../ppooll/externals/filip",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "ll_number.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "llblues_s.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions/ll.blues",
-				"patcherrelativepath" : "../abstractions/ll.blues",
+				"name" : "n.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "n.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/abstractions",
-				"patcherrelativepath" : "../abstractions",
-				"type" : "JSON",
+				"name" : "nblue.js",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
+				"patcherrelativepath" : "../../../ppooll/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1994,8 +2009,8 @@
 			}
 , 			{
 				"name" : "tetrishelp.js",
-				"bootpath" : "~/Documents/Max 8/Library/ppooll/javascripts",
-				"patcherrelativepath" : "../javascripts",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
+				"patcherrelativepath" : "../../../ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

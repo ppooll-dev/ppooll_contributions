@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 406.0, 360.0, 160.0, 258.0 ],
+		"rect" : [ 507.0, 269.0, 160.0, 258.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -317,13 +317,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 945.0, 213.0, 1160.0, 911.0 ],
+						"rect" : [ 531.0, 198.0, 1160.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -369,12 +369,13 @@
 							}
 , 							{
 								"box" : 								{
+									"fontsize" : 16.0,
 									"id" : "obj-97",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 82.0, 522.0, 66.0, 22.0 ],
+									"patching_rect" : [ 82.0, 522.0, 85.0, 26.0 ],
 									"text" : "ll.r in_mix~"
 								}
 
@@ -422,7 +423,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 20.0, 642.0, 114.0, 22.0 ],
+									"patching_rect" : [ 20.0, 642.0, 134.0, 22.0 ],
 									"text" : "record~ #0.fred10 2"
 								}
 
@@ -708,7 +709,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 630.0, 437.0, 50.0, 22.0 ],
-									"text" : "19"
+									"text" : "5"
 								}
 
 							}
@@ -1655,7 +1656,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 457.666687000000024, 409.0, 168.0, 22.0 ],
+									"patching_rect" : [ 457.666687000000024, 409.0, 188.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 502.666687000000024, 235.0, 165.0, 35.0 ],
@@ -1828,7 +1829,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 774.25, 146.0, 140.0, 22.0 ],
+									"patching_rect" : [ 774.25, 146.0, 160.0, 22.0 ],
 									"text" : "buffer~ #0.fred10 4000 2"
 								}
 
@@ -1842,7 +1843,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 20.0, 409.0, 168.0, 22.0 ],
+									"patching_rect" : [ 20.0, 409.0, 188.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 55.0, 235.0, 165.0, 35.0 ],
@@ -2801,7 +2802,7 @@
 						"row2" : [ 14.315789473684211 ],
 						"syncz" : [ -1 ],
 						"tetris_menu" : [ "" ],
-						"title_menu" : [ "titlebar" ]
+						"title_menu" : [ "subpatch" ]
 					}
 ,
 					"text" : "autopattr autopattr",
@@ -2871,7 +2872,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-13",
 					"ignoreclick" : 1,
-					"items" : "-",
+					"items" : [ "-", ",", "-", ",", "ƒ", "default.json" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2952,14 +2953,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ll.actnamehelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ll.an.js",
+				"name" : "ll.an2.js",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
 				"patcherrelativepath" : "../../../ppooll/javascript",
 				"type" : "TEXT",
@@ -2973,17 +2967,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ll.createact8.js",
-				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
-				"patcherrelativepath" : "../../../ppooll/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ll.in_mix.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/ll.blues",
 				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/ll.blues",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ll.makeact.js",
+				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
+				"patcherrelativepath" : "../../../ppooll/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
