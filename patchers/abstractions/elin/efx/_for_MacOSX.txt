@@ -1,0 +1,4 @@
+for mac osx
+download
+http://www.cycling74.com/download/maxmspruntime457.dmg 
+and open [efx_step.txt]

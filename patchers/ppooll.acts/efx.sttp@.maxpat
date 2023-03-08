@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 385.0, 546.0, 159.0, 96.0 ],
+		"rect" : [ 544.0, 317.0, 159.0, 111.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,21 +41,10 @@
 		"globalpatchername" : "efx.sttp@1",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Helvetica Light",
-					"fontsize" : 8.0,
-					"id" : "obj-12",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 95.0, 4.0, 112.0, 14.0 ],
-					"text" : "ondo!"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.792156862745098, 0.803921568627451, 0.870588235294118, 1.0 ],
-					"fontname" : "American Typewriter",
+					"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
 					"id" : "obj-9",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -63,10 +52,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 0.0, 19.0, 100.0, 20.0 ],
-					"text" : "turn on ",
-					"texton" : "turn off",
-					"textoncolor" : [ 0.894117647058824, 0.909803921568627, 0.807843137254902, 1.0 ],
+					"patching_rect" : [ 5.0, 28.026315789473685, 38.0, 19.0 ],
+					"text" : "off",
+					"texton" : "on",
+					"textoncolor" : [ 0.76078431372549, 0.76078431372549, 0.76078431372549, 1.0 ],
 					"varname" : "sttpON"
 				}
 
@@ -87,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 0.0, 43.0, 159.0, 53.0 ],
+					"patching_rect" : [ 0.0, 58.0, 159.0, 53.0 ],
 					"varname" : "ll.blues",
 					"viewvisibility" : 1
 				}
@@ -113,11 +102,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-1",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 492.0, 134.0, 151.0, 22.0 ],
-					"text" : "actmaker efx.sttp@ #fcf5f5",
+					"patching_rect" : [ 492.0, 134.0, 166.0, 35.0 ],
+					"text" : "actmaker efx.sttp@ \"455 455 455\"",
 					"varname" : "act"
 				}
 
@@ -143,7 +133,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1052.0, 199.0, 652.0, 779.0 ],
+						"rect" : [ 611.0, 79.0, 652.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1719,10 +1709,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 54, 397, 594, 1106 ],
+						"client_rect" : [ 313, 472, 906, 1006 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 365, 44, 816, 172 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage pat",
@@ -1900,6 +1890,22 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"data" : [ 2082, "png", "IBkSG0fBZn....PCIgDQRA..AXE....UHX....P1P7AO....DLmPIQEBHf.B7g.YHB..GjcRDEDU3wY6bm0SS0s.GF+eKkBskIYTEReYPHDCgPDEhIXb.hCwa7J8afen3af2YhgDBAMHAEPCHBUFtfoJvEHi0ZoTvx4BxtmSYC5QdWXU342cr2q18JjvSVrmbr2d6sm..fw3LUOA..NsgvJ.fgQXE.vvHrB.XXDVA.LLBq..FFgU..CivJ.fgQXE.vvHrB.XXDVA.LLBq..FFgU..CivJ.fgQXE.vvHrB.XXDVA.LLBq..FFgU..CivJ.fgQXE.vvHrB.XXDVA.LLBq..FFgU..CivJ.fgQXE.vvHrB.XXDVA.LLBq..FFgU..CivJ.fgQXEmYEOdbM3fCpM1Xie53lat4zxKu7w53DMZT0e+8qs1Zqi0mG+8gvJNyZ3gGVe9yeV4lat+vwsyN6nt5pK8wO9wi0wIyLyTgBERu4Mu4X84weeHrhyjVas0zHiLhZpoljCGNNwOdM2byZ1YmUyM2bm3GKj5QXEmI892+dkat4J+98+a43kWd4o+4e9G8t28teKGOjZ4JUOA.rr95qqEVXAENbXkc1YqKbgKnBJnfjFyRKsjhFMpprxJ0JqrhVZokzVaskJnfBTEUTgRKszRL1nQipfACpLyLyjBnarwFZ94mWW8pW8PmGat4lJXvfJVrX5hW7hJ+7y+HmywiGWyN6rZs0VSRRETPAxue+xkK6+oUUUUkd4KeoBFL3usfNRMHrh+Hze+8q.ABn81aO40qWEIRD4vgCUWc0olatY4z49+yUABDPKu7xJb3vZfAFPNc5TwiGWRREVXg5gO7gJiLxPRRgBER8zSOp3hKNoP1TSMkjjprxJsMO5qu9z3iOtb5zob61sFZngTs0V6gNmWYkUT2c2sBEJjRO8zkCGNTrXwTN4jityctiJt3hSZ7986WokVZZxImjv5obDVQJ2TSMkFarwTYkUlt8sus73wihFMpd8qesFarwjOe9T80WehwGIRDMxHinVZoEUUUUou+8uqd6sWELXPMwDSnFZnAIs+EMplZpQ4jSNIc7Vc0UkWudUd4kWRaexImTiO93p5pqV23F2Ptb4RKt3hp6t611bd2c2Uu5UuRQhDQs1ZqpxJqTNb3PyN6rpmd5Qc0UW5wO9wxsa2I9Lomd5p3hKVqrxJl7We3OPbNVQJW+82uxHiLTas0l73wij1OJ1ZqsJud8pgFZHs6t6lzm4ZW6Z5xW9xJiLxPd85UM2byRRIcKQkSN4nacqaoqbkqjzmcs0VSYkUV1lGCMzPxiGOIhpRRkVZopwFaz1XmXhIzFargZngFTUUUUhK.VEUTgZrwFUjHQzXiMlsOWVYkkBGNr1Ymc9U9UD9KCgUjR80u9UEKVL42u+jVcmjjKWtT4kWt1YmcrculVRIkjzOmc1YKI8SCVau81JRjH1BqQiFUe6aeSkUVY1N+nUUUU19dVc0UkjzktzkrsupqtZII8ku7Ea6y53t95q+Cmm3uaDVQJ0latoj9ugwCxJDYMNKd85Moe15hVs2d68COdVAMe97kz1st3SGb6RRd73IoKJljRD5OrU95wiG4xkKEJTHa6y56mv5oaDVQJk0pCOpUZZs8CF1Ntr9W12d6sSZ6YlYlRR1NkCR6GqOXvN8zS+HGe73w0t6t6gNmiEKVRyCb5DgUjRY8TOcTqfyZ6G0JZ+UYsR2CdpEN24Nmb4x0g93sFNb3D24AVrl2G13s11gMms12AWwMNcgvJRo73wiJt3h0BKrfsyI4Zqslle94U1Ymss6m0iKe97ozRKMamZAGNbnRJoDsvBKX6p1GHP.aeOkWd4RR5Ce3C11m01rFy+Kqv5AuSEvoKDVQJWKszhb5zo5niNzniNpVbwEUf.AzKdwKja2t0cu6cOVeuKu7xp81aWO+4OOw1b5zoJszR01aussWJJ27l2Td85UczQGZ7wGWKrvBpu95SSLwD19W2KqrxT4kWtle94Umc1olat4zbyMm5pqtzzSOsps1ZUM0Tis4zFargxM2bIrdJG2GqHkqvBKTO5QOR81auZfAFPR6etWKojRTyM2rwVspE+98qfACpUWcUUVYkkX6YkUV5d26dZvAGTu8suUwiGWd73QO3AOPc1Ym19dZqs1zvCOrFczQUvfAkz9qDsgFZPM0TS1Fu0c.wQ8.GfSObr2O6xnB7aTrXwT3vgUd4kWhm1p+MlYlYzLyLiZqs1Rrsc1YG8rm8LUXgEp6e+6ejyis1Zqe5a9JKgBERNc57PuKArze+8qwGeb8jm7je33ve+3TAf+n31sake94ajnZ73w0TSMkN+4OeRaO8zSWM0TSJXvfItMqNr4w+uQUo8Wo5OJVt81aqIlXBUe80ST8L.Bq3Tqs1ZKUTQEo5pqNa6qlZpQEUTQG62wp+p9zm9jb61chG2Vb5FgUbpkOe9Nx2fURRW+5WWSO8zJb3vmnyic2cWEHP.0TSMk39eEmtw4XEmos5pqJe97k3AD3jf0ijaQEUzI1w.+YgvJ.fgwoB..vvHrB.XXDVA.LLBq..FFgU..CivJ.fg8u9kvR6s2tIlG..m3d5Se5ukiCqXE.vvHrB.XXDVA.LLBq..FFgU..CiWBK..FFqXE.vvHrB.XXDVA.LLBq..FFgU..CivJ.fgQXE.vvHrB.XXDVA.LLBq..FFgU..CivJ.fgQXE.vvHrB.XXDVA.LLBq..FFgU..C6+.DqdCFm7KLjs.....jTQNQjqBAlf" ],
+					"embed" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-10",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 45.0, 18.0, 159.0, 39.052631578947363 ],
+					"pic" : "SSD:/Users/elin/Desktop/Screenshot 2022-09-20 at 01.06.48.png"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1935,161 +1941,161 @@
 		"dependency_cache" : [ 			{
 				"name" : "actmaker.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.actmenu.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.actname.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.an2.js",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
-				"patcherrelativepath" : "../../../ppooll/javascript",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.blues.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/ll.blues",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/ll.blues",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/ll.blues",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.in_mix.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/ll.blues",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/ll.blues",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/ll.blues",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.makeact.js",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
-				"patcherrelativepath" : "../../../ppooll/javascript",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.movewindow.js",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
-				"patcherrelativepath" : "../../../ppooll/javascript",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.og.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.p.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.pf.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.psto.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.psto1.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.r.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.r~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.s.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.shut.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.strip#.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.sub_inputs.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.s~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.textsize.js",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
-				"patcherrelativepath" : "../../../ppooll/javascript",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll.wsendback.js",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
-				"patcherrelativepath" : "../../../ppooll/javascript",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ll_fastforward.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/externals/filip",
-				"patcherrelativepath" : "../../../ppooll/externals/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/externals/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2100,14 +2106,14 @@
 , 			{
 				"name" : "n.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
-				"patcherrelativepath" : "../../../ppooll/patchers/abstractions/filip",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/patchers/abstractions/filip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nblue.js",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
-				"patcherrelativepath" : "../../../ppooll/javascript",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2118,13 +2124,13 @@
 , 			{
 				"name" : "tetrishelp.js",
 				"bootpath" : "~/Documents/Max 8/Packages/ppooll/javascript",
-				"patcherrelativepath" : "../../../ppooll/javascript",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/ppooll/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.988235294117647, 0.96078431372549, 0.96078431372549, 1.0 ]
+		"bgcolor" : [ 1.784313725490196, 1.784313725490196, 1.784313725490196, 1.0 ]
 	}
 
 }
