@@ -6,7 +6,7 @@
 	"extensible" : 0,
 	"homepatcher" : "",
 	"max_version_max" : "none",
-	"max_version_min" : "8",
+	"max_version_min" : "9",
 	"name" : "ppooll_contributions",
 	"os" : 	{
 		"macintosh" : 		{
@@ -26,7 +26,7 @@
 	}
 ,
 	"tags" : [ "audio", "instrument", "versatile" ],
-	"version" : "8.5",
+	"version" : "9",
 	"website" : "http://ppooll.klingt.org",
 	"filelist" : 	{
 		"externals" : [],
