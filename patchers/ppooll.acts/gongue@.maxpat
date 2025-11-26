@@ -145,10 +145,9 @@
                         "ll.blues::levels": 5
                     },
                     "saved_object_attributes": {
-                        "client_rect": [ 1069, 164, 1512, 407 ],
+                        "client_rect": [ 400, 495, 1195, 847 ],
                         "parameter_enable": 0,
-                        "parameter_mappable": 0,
-                        "storage_rect": [ 0, 0, 640, 240 ]
+                        "parameter_mappable": 0
                     },
                     "text": "pattrstorage pat",
                     "varname": "pat"
