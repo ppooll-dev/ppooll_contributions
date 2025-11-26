@@ -13,12 +13,24 @@
         "boxes": [
             {
                 "box": {
+                    "fontsize": 9.0,
+                    "id": "obj-2",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 5.0, 191.0, 228.0, 17.0 ],
+                    "text": "click \"folder\" to load a soundfile folder or drag and drop",
+                    "textjustification": 1
+                }
+            },
+            {
+                "box": {
                     "id": "obj-4",
                     "linecount": 8,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 5.0, 68.0, 279.0, 114.0 ],
+                    "patching_rect": [ 5.0, 66.0, 279.0, 114.0 ],
                     "text": "this patch employs max's polybuffer~ object to scrub between up to 24 samples in fabulous 12-bit fidelity with live visualization.\n\nfrantz works best with short samples.\n\nto get started, load a folder of samples using the folder menu (same as hardplay/buffer_host)"
                 }
             },
@@ -31,7 +43,7 @@
                     "maxclass": "newobj",
                     "numinlets": 4,
                     "numoutlets": 0,
-                    "patching_rect": [ 314.0, 146.0, 91.0, 19.0 ],
+                    "patching_rect": [ 494.0, 145.0, 91.0, 19.0 ],
                     "text": "bgcolor 455 455 455"
                 }
             },
@@ -79,6 +91,7 @@
         ],
         "lines": [],
         "autosave": 0,
-        "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ]
+        "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+        "oscreceiveudpport": 0
     }
 }
