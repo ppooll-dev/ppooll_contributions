@@ -9,8 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 117.0, 127.0, 725.0, 624.0 ],
+        "rect": [ 100.0, 100.0, 725.0, 624.0 ],
         "boxes": [
+            {
+                "box": {
+                    "hidden": 1,
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 4,
+                    "numoutlets": 0,
+                    "patching_rect": [ 505.0, 134.0, 118.0, 22.0 ],
+                    "text": "bgcolor 241 155 153"
+                }
+            },
             {
                 "box": {
                     "fontname": "Arial",
@@ -21,7 +32,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 591.0, 279.5, 95.0, 29.0 ],
-                    "presentation_linecount": 2,
                     "text": "get info on:\nblue output section",
                     "textcolor": [ 0.184313725490196, 0.184313725490196, 0.184313725490196, 1.0 ]
                 }
@@ -60,7 +70,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 524.0, 279.5, 60.0, 29.0 ],
-                    "presentation_linecount": 2,
                     "text": "get info on:\npresets",
                     "textcolor": [ 0.184313725490196, 0.184313725490196, 0.184313725490196, 1.0 ]
                 }
@@ -189,7 +198,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 56.0, 557.0, 35.0, 17.0 ],
-                    "presentation_linecount": 2,
                     "text": "deck #",
                     "textcolor": [ 1.0, 0.588235294117647, 0.588235294117647, 1.0 ]
                 }
@@ -444,7 +452,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 318.0, 338.0, 138.0, 31.0 ],
-                    "presentation_linecount": 2,
                     "text": "X position = panning\nY position = volume",
                     "textcolor": [ 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 1.0 ]
                 }
@@ -458,7 +465,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 188.0, 136.0, 139.0, 105.0 ],
-                    "presentation_linecount": 8,
                     "text": "send audio into deck 2:\nZ = 2.1 & 2.2\nX = 2.3 & 2.4\nC = 2.5 & 2.6\nV = 2.7 & 2.8\nB = 2.9 & 2.10\nN = 2.11 & 2.12\nM = 2.13 & 2.14",
                     "textcolor": [ 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 1.0 ]
                 }
@@ -495,8 +501,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 18.0, 22.0, 72.0, 29.0 ],
-                    "text": "djrone",
+                    "patching_rect": [ 18.0, 22.0, 84.0, 29.0 ],
+                    "text": "djrone@",
                     "textcolor": [ 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 1.0 ]
                 }
             },
@@ -511,8 +517,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 18.0, 71.0, 348.0, 43.0 ],
                     "text": "original patch: by Uhito Kiyosue (mesa.elech/tele) // ondomusic.com\n\nmod: steech",
-                    "textcolor": [ 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 1.0 ],
-                    "textjustification": 0
+                    "textcolor": [ 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 1.0 ]
                 }
             }
         ],
@@ -540,6 +545,11 @@
             }
         ],
         "autosave": 0,
-        "bgcolor": [ 1.0, 0.5882352941176471, 0.5882352941176471, 1.0 ]
+        "bgcolor": [ 0.9450980392156862, 0.6078431372549019, 0.6, 1.0 ],
+        "saved_attribute_attributes": {
+            "locked_bgcolor": {
+                "expression": "themecolor.theme_locked_bgcolor"
+            }
+        }
     }
 }
