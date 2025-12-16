@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 188.0, 498.0, 275.0, 104.0 ],
+        "rect": [ 508.0, 203.0, 275.0, 104.0 ],
         "toolbarvisible": 0,
         "globalpatchername": "romb1",
         "boxes": [
@@ -104,7 +104,9 @@
                     "annotation_name": "Hi Cut",
                     "appearance": 4,
                     "id": "obj-36",
+                    "inactivelcdcolor": [ 0.325, 0.325, 0.325, 1.0 ],
                     "jspainterfile": "hicut.js",
+                    "lcdbgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                     "lcdcolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                     "maxclass": "live.numbox",
                     "numinlets": 1,
@@ -144,8 +146,12 @@
                     "annotation": "This controls the feedback, at low values the reverb will ring out quickly and on high values it will be nearly infinite.",
                     "annotation_name": "Trail",
                     "appearance": 2,
+                    "bordercolor": [ 0.172137147130865, 0.17213710084121, 0.172137112999252, 1.0 ],
+                    "focusbordercolor": [ 0.172137147130865, 0.17213710084121, 0.172137112999252, 1.0 ],
                     "id": "obj-107",
+                    "inactivelcdcolor": [ 0.325, 0.325, 0.325, 1.0 ],
                     "jspainterfile": "lcdslider.js",
+                    "lcdbgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                     "lcdcolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                     "maxclass": "live.numbox",
                     "numinlets": 1,
@@ -208,7 +214,9 @@
                     "annotation_name": "Size",
                     "appearance": 4,
                     "id": "obj-118",
+                    "inactivelcdcolor": [ 0.325, 0.325, 0.325, 1.0 ],
                     "jspainterfile": "time.js",
+                    "lcdbgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                     "lcdcolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                     "maxclass": "live.numbox",
                     "numinlets": 1,
@@ -249,7 +257,9 @@
                     "annotation_name": "Lo Cut",
                     "appearance": 4,
                     "id": "obj-109",
+                    "inactivelcdcolor": [ 0.325, 0.325, 0.325, 1.0 ],
                     "jspainterfile": "locut.js",
+                    "lcdbgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                     "lcdcolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                     "maxclass": "live.numbox",
                     "numinlets": 1,
@@ -323,8 +333,13 @@
                         "jsui": 0,
                         "preset-ramp": 0,
                         "presets": 0,
+                        "act": 0,
                         "act::active_store": 0,
                         "act::master/activest": 0,
+                        "act::u751015509": 0,
+                        "act::pres_menu": 0,
+                        "act::tetris_menu": 0,
+                        "act::title_menu": 0,
                         "ll.blues": 0,
                         "ll.blues::status": 0,
                         "ll.blues::outputs~": 0,
@@ -348,10 +363,9 @@
                         "ll.blues::levels": 5
                     },
                     "saved_object_attributes": {
-                        "client_rect": [ 368, 148, 983, 808 ],
+                        "client_rect": [ 400, 495, 1195, 847 ],
                         "parameter_enable": 0,
-                        "parameter_mappable": 0,
-                        "storage_rect": [ 430, 270, 1276, 999 ]
+                        "parameter_mappable": 0
                     },
                     "text": "pattrstorage pat",
                     "varname": "pat"
@@ -421,7 +435,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -691,7 +705,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1268,7 +1282,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2095,7 +2109,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2355,7 +2369,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 1,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2703,7 +2717,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 1,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2833,7 +2847,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 1,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -3604,7 +3618,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 1,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -4195,7 +4209,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 1,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -6716,7 +6730,9 @@
                                     "annotation_name": "Hi Cut",
                                     "appearance": 4,
                                     "id": "obj-36",
+                                    "inactivelcdcolor": [ 0.325, 0.325, 0.325, 1.0 ],
                                     "jspainterfile": "hicut.js",
+                                    "lcdbgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                                     "lcdcolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -6809,8 +6825,12 @@
                                     "annotation": "This controls the feedback, at low values the reverb will ring out quickly and on high values it will be nearly infinite.",
                                     "annotation_name": "Trail",
                                     "appearance": 2,
+                                    "bordercolor": [ 0.172137147130865, 0.17213710084121, 0.172137112999252, 1.0 ],
+                                    "focusbordercolor": [ 0.172137147130865, 0.17213710084121, 0.172137112999252, 1.0 ],
                                     "id": "obj-107",
+                                    "inactivelcdcolor": [ 0.325, 0.325, 0.325, 1.0 ],
                                     "jspainterfile": "lcdslider.js",
+                                    "lcdbgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                                     "lcdcolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -6872,7 +6892,9 @@
                                     "annotation_name": "Size",
                                     "appearance": 4,
                                     "id": "obj-118",
+                                    "inactivelcdcolor": [ 0.325, 0.325, 0.325, 1.0 ],
                                     "jspainterfile": "time.js",
+                                    "lcdbgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                                     "lcdcolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -6913,7 +6935,9 @@
                                     "annotation_name": "Lo Cut",
                                     "appearance": 4,
                                     "id": "obj-109",
+                                    "inactivelcdcolor": [ 0.325, 0.325, 0.325, 1.0 ],
                                     "jspainterfile": "locut.js",
+                                    "lcdbgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                                     "lcdcolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -8859,14 +8883,6 @@
             "obj-17::obj-36": [ "Hi Cut[1]", "Hi Cut", 0 ],
             "obj-28": [ "Dry/Wet Mix", "Mix", 0 ],
             "obj-36": [ "Hi Cut", "Hi Cut", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
