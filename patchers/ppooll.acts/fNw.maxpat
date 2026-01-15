@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 807.0, 220.0, 208.0, 299.0 ],
+		"rect" : [ 690.0, 79.0, 208.0, 299.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -746,10 +746,6 @@
 						"trigger" : 0,
 						"act" : 0,
 						"act::active_store" : 0,
-						"ll.inputmix" : 0,
-						"ll.inputmix::u361027456" : 0,
-						"ll.inputmix::chans" : 0,
-						"ll.inputmix::in_mix" : 0,
 						"ll.blues" : 0,
 						"ll.blues::levels" : 0,
 						"ll.blues::outputs" : 0,
@@ -822,17 +818,17 @@
 						"clip" : [ 71.811187202702598 ],
 						"delay" : [ 41.150845529303623 ],
 						"drywet" : [ 1.0 ],
-						"fblevel" : [ 42.190140375630392 ],
+						"fblevel" : [ 11.826258505687687 ],
 						"freq" : [ 78.945945945945937 ],
 						"g_rate" : [ 36.04054054054054 ],
-						"gain" : [ 93.499999999999844 ],
-						"ins" : [ 94.734976788653981, 85.808917890624642, 74.786256740607485, 76.377226161435019, 95.353204339079568 ],
+						"gain" : [ 85.249999999999886 ],
+						"ins" : [ 31.909288174428283, 39.728818791053939, 41.802999859378566, 47.276262097768473, 48.514802138899775 ],
 						"levelrange" : [ 12, 118 ],
 						"master" : [ 0 ],
 						"nrate" : [ 44.985668059136415 ],
-						"pres_menu" : [ "_" ],
+						"pres_menu" : [ "" ],
 						"preset-ramp" : [ 0 ],
-						"presets" : [ 1 ],
+						"presets" : [ 0 ],
 						"q" : [ 38.565294548406271 ],
 						"randGain" : [ 1.0 ],
 						"randNetwork" : [ 1.0 ],
@@ -945,7 +941,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -984,8 +980,8 @@
 									"id" : "obj-9",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 53.0, 132.0, 66.0, 22.0 ],
 									"text" : "ll.r in_mix~"
 								}
@@ -1147,7 +1143,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1234,7 +1230,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1333,7 +1329,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 3,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -1518,6 +1514,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-37",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -1546,6 +1543,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-47",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -1574,6 +1572,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-53",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -1602,6 +1601,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-59",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -1616,6 +1616,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-65",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -1645,6 +1646,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-67",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -1852,7 +1854,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1920,6 +1922,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-4",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -1949,6 +1952,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-7",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -2180,6 +2184,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-5",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -2209,6 +2214,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-11",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -2280,6 +2286,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-19",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -2321,6 +2328,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-24",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -2391,6 +2399,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-40",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -2420,6 +2429,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-61",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -2435,6 +2445,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-68",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -2696,7 +2707,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2783,7 +2794,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2882,7 +2893,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 3,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -3067,6 +3078,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-37",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -3095,6 +3107,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-47",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -3123,6 +3136,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-53",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -3151,6 +3165,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-59",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -3165,6 +3180,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-65",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -3194,6 +3210,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-67",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -3401,7 +3418,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3469,6 +3486,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-4",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -3498,6 +3516,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-7",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -3729,6 +3748,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-5",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -3758,6 +3778,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-11",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -3829,6 +3850,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-19",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -3870,6 +3892,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-24",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -3940,6 +3963,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-40",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -3969,6 +3993,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-61",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -3984,6 +4009,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-68",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -4245,7 +4271,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4332,7 +4358,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4431,7 +4457,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 3,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -4616,6 +4642,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-37",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -4644,6 +4671,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-47",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -4672,6 +4700,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-53",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -4700,6 +4729,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-59",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -4714,6 +4744,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-65",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -4743,6 +4774,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-67",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -4950,7 +4982,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5018,6 +5050,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-4",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -5047,6 +5080,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-7",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -5278,6 +5312,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-5",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -5307,6 +5342,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-11",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -5378,6 +5414,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-19",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -5419,6 +5456,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-24",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -5489,6 +5527,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-40",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -5518,6 +5557,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-61",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -5533,6 +5573,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-68",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -5793,7 +5834,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6221,8 +6262,8 @@
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 821.0, 405.0, 80.0, 22.0 ],
 									"text" : "ll.r smoothing"
 								}
@@ -6257,8 +6298,8 @@
 									"id" : "obj-121",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 852.0, 265.0, 59.0, 22.0 ],
 									"text" : "ll.r trigger"
 								}
@@ -6269,8 +6310,8 @@
 									"id" : "obj-120",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 272.0, 435.0, 60.0, 22.0 ],
 									"text" : "ll.r drywet"
 								}
@@ -6281,8 +6322,8 @@
 									"id" : "obj-116",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 823.0, 470.0, 53.0, 22.0 ],
 									"text" : "ll.r delay"
 								}
@@ -6293,8 +6334,8 @@
 									"id" : "obj-110",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 1017.0, 347.0, 31.0, 22.0 ],
 									"text" : "ll.r q"
 								}
@@ -6305,8 +6346,8 @@
 									"id" : "obj-109",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 908.0, 225.5, 45.0, 22.0 ],
 									"text" : "ll.r freq"
 								}
@@ -6317,8 +6358,8 @@
 									"id" : "obj-108",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 1026.0, 467.0, 43.0, 22.0 ],
 									"text" : "ll.r clip"
 								}
@@ -6329,8 +6370,8 @@
 									"id" : "obj-107",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 723.0, 372.0, 45.0, 22.0 ],
 									"text" : "ll.r rate"
 								}
@@ -6341,8 +6382,8 @@
 									"id" : "obj-106",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 778.0, 372.0, 50.0, 22.0 ],
 									"text" : "ll.r sens"
 								}
@@ -6353,8 +6394,8 @@
 									"id" : "obj-105",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 636.5, 435.0, 75.0, 22.0 ],
 									"text" : "ll.r autofdb 1"
 								}
@@ -6401,8 +6442,8 @@
 									"id" : "obj-65",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 928.0, 51.0, 52.0, 22.0 ],
 									"text" : "ll.r nrate"
 								}
@@ -6413,8 +6454,8 @@
 									"id" : "obj-64",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 1048.0, 137.0, 59.0, 22.0 ],
 									"text" : "ll.r g_rate"
 								}
@@ -6425,8 +6466,8 @@
 									"id" : "obj-63",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 821.0, 132.0, 103.0, 22.0 ],
 									"text" : "ll.r randNetwork 1"
 								}
@@ -6437,8 +6478,8 @@
 									"id" : "obj-62",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 786.0, 324.0, 84.0, 22.0 ],
 									"text" : "ll.r randGain 1"
 								}
@@ -6494,7 +6535,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6659,6 +6700,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-87",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -6742,6 +6784,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-147",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -7163,7 +7206,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7452,7 +7495,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7715,6 +7758,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-173",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -7729,6 +7773,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-157",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -7743,6 +7788,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-26",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -7786,6 +7832,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-170",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -7801,6 +7848,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-148",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -7816,6 +7864,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-54",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -7853,7 +7902,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8099,6 +8148,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-7",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8154,6 +8204,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-15",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8169,6 +8220,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-16",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8184,6 +8236,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-17",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8199,6 +8252,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-18",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8477,6 +8531,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-47",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -8514,7 +8569,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8760,6 +8815,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-7",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8815,6 +8871,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-15",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8830,6 +8887,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-16",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8845,6 +8903,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-17",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8860,6 +8919,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-18",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -9138,6 +9198,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-43",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -9175,7 +9236,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9421,6 +9482,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-7",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -9476,6 +9538,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-15",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -9491,6 +9554,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-16",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -9506,6 +9570,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-17",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -9521,6 +9586,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-18",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -9799,6 +9865,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-39",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -9836,7 +9903,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10082,6 +10149,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-7",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10137,6 +10205,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-15",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10152,6 +10221,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-16",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10167,6 +10237,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-17",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10182,6 +10253,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-18",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10460,6 +10532,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-38",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -10497,7 +10570,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10743,6 +10816,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-7",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10798,6 +10872,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-15",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10813,6 +10888,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-16",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10828,6 +10904,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-17",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10843,6 +10920,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-18",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -11121,6 +11199,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-4",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -11191,6 +11270,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-14",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -11235,6 +11315,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-17",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -11333,6 +11414,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-96",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -11431,6 +11513,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-115",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -11445,6 +11528,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-118",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -11473,6 +11557,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-151",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -11487,6 +11572,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-152",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -11508,7 +11594,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11595,7 +11681,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11694,7 +11780,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 3,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -11879,6 +11965,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-37",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -11907,6 +11994,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-47",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -11935,6 +12023,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-53",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -11963,6 +12052,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-59",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -11977,6 +12067,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-65",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -12006,6 +12097,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-67",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -12213,7 +12305,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12281,6 +12373,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-4",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -12310,6 +12403,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-7",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -12541,6 +12635,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-5",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -12570,6 +12665,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-11",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -12641,6 +12737,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-19",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -12682,6 +12779,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-24",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -12752,6 +12850,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-40",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -12781,6 +12880,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-61",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -12796,6 +12896,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-68",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -13050,6 +13151,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-158",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -13064,6 +13166,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-159",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -13085,7 +13188,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13172,7 +13275,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -13271,7 +13374,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 3,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -13456,6 +13559,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-37",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -13484,6 +13588,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-47",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -13512,6 +13617,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-53",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -13540,6 +13646,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-59",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -13554,6 +13661,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-65",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -13583,6 +13691,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-67",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -13790,7 +13899,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -13858,6 +13967,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-4",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -13887,6 +13997,7 @@
 																	"fontname" : "Arial Bold",
 																	"fontsize" : 10.0,
 																	"id" : "obj-7",
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -14118,6 +14229,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-5",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -14147,6 +14259,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-11",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -14218,6 +14331,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-19",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -14259,6 +14373,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-24",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -14329,6 +14444,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-40",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -14358,6 +14474,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-61",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -14373,6 +14490,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-68",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -15731,11 +15849,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ll_fastforward.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ppooll/externals/filip",
-				"patcherrelativepath" : "../../../ppooll/externals/filip",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "ll_fastforward.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "ll_number.mxo",
