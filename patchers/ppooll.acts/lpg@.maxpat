@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 997.0, 102.0, 162.0, 193.0 ],
+        "rect": [ 648.0, 267.0, 162.0, 193.0 ],
         "toolbarvisible": 0,
         "globalpatchername": "lpg@1",
         "boxes": [
@@ -213,7 +213,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -445,7 +445,7 @@
                                 "box": {
                                     "id": "obj-2",
                                     "maxclass": "newobj",
-                                    "numinlets": 3,
+                                    "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "multichannelsignal", "signal" ],
                                     "patching_rect": [ 107.0, 293.0, 53.0, 22.0 ],
@@ -481,13 +481,13 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 2 ],
+                                    "destination": [ "obj-2", 1 ],
                                     "source": [ "obj-12", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 2 ],
+                                    "destination": [ "obj-2", 1 ],
                                     "midpoints": [ 677.5, 231.5, 150.5, 231.5 ],
                                     "source": [ "obj-13", 0 ]
                                 }
@@ -500,7 +500,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 2 ],
+                                    "destination": [ "obj-2", 1 ],
                                     "source": [ "obj-15", 0 ]
                                 }
                             },
@@ -524,8 +524,8 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 1 ],
-                                    "midpoints": [ 280.5, 231.5, 133.5, 231.5 ],
+                                    "destination": [ "obj-2", 0 ],
+                                    "midpoints": [ 280.5, 231.5, 116.5, 231.5 ],
                                     "source": [ "obj-24", 0 ]
                                 }
                             },
@@ -537,29 +537,29 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 1 ],
-                                    "midpoints": [ 354.5, 231.5, 133.5, 231.5 ],
+                                    "destination": [ "obj-2", 0 ],
+                                    "midpoints": [ 354.5, 231.5, 116.5, 231.5 ],
                                     "source": [ "obj-35", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 1 ],
-                                    "midpoints": [ 427.5, 231.5, 133.5, 231.5 ],
+                                    "destination": [ "obj-2", 0 ],
+                                    "midpoints": [ 427.5, 231.5, 116.5, 231.5 ],
                                     "source": [ "obj-36", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 1 ],
-                                    "midpoints": [ 583.5, 231.5, 133.5, 231.5 ],
+                                    "destination": [ "obj-2", 0 ],
+                                    "midpoints": [ 583.5, 231.5, 116.5, 231.5 ],
                                     "source": [ "obj-37", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 1 ],
-                                    "midpoints": [ 495.5, 231.5, 133.5, 231.5 ],
+                                    "destination": [ "obj-2", 0 ],
+                                    "midpoints": [ 495.5, 231.5, 116.5, 231.5 ],
                                     "source": [ "obj-4", 0 ]
                                 }
                             },
@@ -635,10 +635,9 @@
                         "ll.blues::levels": 5
                     },
                     "saved_object_attributes": {
-                        "client_rect": [ 434, 164, 1512, 407 ],
+                        "client_rect": [ 345, 87, 1600, 803 ],
                         "parameter_enable": 0,
-                        "parameter_mappable": 0,
-                        "storage_rect": [ 0, 0, 640, 240 ]
+                        "parameter_mappable": 0
                     },
                     "text": "pattrstorage pat",
                     "varname": "pat"
