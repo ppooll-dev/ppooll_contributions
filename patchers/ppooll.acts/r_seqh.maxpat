@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 120.0, 151.0, 447.0, 335.0 ],
+        "rect": [ 728.0, 88.0, 447.0, 335.0 ],
         "toolbarvisible": 0,
         "globalpatchername": "r_seqh1",
         "boxes": [
@@ -571,7 +571,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "snd_0h",
+                    "buffername": "21323.snd_h",
                     "grid": 0.0,
                     "id": "obj-29",
                     "labels": 0,
@@ -629,7 +629,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "snd_0g",
+                    "buffername": "21323.snd_g",
                     "grid": 0.0,
                     "id": "obj-35",
                     "labels": 0,
@@ -687,7 +687,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "snd_0f",
+                    "buffername": "21323.snd_f",
                     "grid": 0.0,
                     "id": "obj-41",
                     "labels": 0,
@@ -745,7 +745,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "snd_0d",
+                    "buffername": "21323.snd_d",
                     "grid": 0.0,
                     "id": "obj-47",
                     "labels": 0,
@@ -803,7 +803,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "snd_0s",
+                    "buffername": "21323.snd_s",
                     "grid": 0.0,
                     "id": "obj-53",
                     "labels": 0,
@@ -861,7 +861,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "snd_0a",
+                    "buffername": "21323.snd_a",
                     "grid": 0.0,
                     "id": "obj-60",
                     "labels": 0,
@@ -1393,8 +1393,13 @@
                     "active": {
                         "bpm": 0,
                         "presets": 0,
+                        "act": 0,
                         "act::active_store": 0,
                         "act::master/activest": 0,
+                        "act::u751015509": 0,
+                        "act::pres_menu": 0,
+                        "act::tetris_menu": 0,
+                        "act::title_menu": 0,
                         "ll.blues": 0,
                         "ll.blues::status": 0,
                         "ll.blues::outputs~": 0,
@@ -1523,12 +1528,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 141.0, 125.0, 669.0, 518.0 ],
+                        "rect": [ 77.0, 158.0, 669.0, 518.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -1555,12 +1560,12 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 205.0, 242.0, 640.0, 480.0 ],
+                                        "rect": [ 402.0, 593.0, 640.0, 480.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -1596,7 +1601,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -1730,7 +1735,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -1864,7 +1869,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -1998,7 +2003,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2121,7 +2126,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2266,7 +2271,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2402,7 +2407,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2443,7 +2448,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 0,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -2660,10 +2665,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-2",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 397.0, 151.0, 55.0, 39.0 ],
+                                                                    "patching_rect": [ 397.0, 151.0, 65.0, 19.0 ],
                                                                     "text": "s #0.traksel"
                                                                 }
                                                             },
@@ -2741,7 +2747,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 188.0, 177.0, 104.0, 19.0 ],
-                                                                    "text": "loadmess _load_keyb1"
+                                                                    "text": "ll.ld _load_keyb1 100"
                                                                 }
                                                             },
                                                             {
@@ -2749,11 +2755,12 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-13",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 57.0, 76.0, 65.0, 39.0 ],
+                                                                    "patching_rect": [ 57.0, 76.0, 75.0, 19.0 ],
                                                                     "text": "r #0.sequlique"
                                                                 }
                                                             },
@@ -2971,10 +2978,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-39",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 196.0, 483.0, 82.0, 29.0 ],
+                                                                    "patching_rect": [ 196.0, 483.0, 92.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutR"
                                                                 }
                                                             },
@@ -2983,10 +2991,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-40",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 111.0, 483.0, 80.0, 29.0 ],
+                                                                    "patching_rect": [ 111.0, 483.0, 90.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutL"
                                                                 }
                                                             },
@@ -3153,12 +3162,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-54",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "signal", "bang" ],
-                                                                    "patching_rect": [ 111.0, 226.0, 64.0, 19.0 ],
-                                                                    "text": "play~ snd_0h"
+                                                                    "patching_rect": [ 111.0, 226.0, 80.0, 19.0 ],
+                                                                    "text": "play~ #0.snd_h"
                                                                 }
                                                             },
                                                             {
@@ -3166,12 +3176,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-55",
+                                                                    "linecount": 2,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 42.0, 450.0, 54.0, 19.0 ],
-                                                                    "text": "set snd_0h"
+                                                                    "patching_rect": [ 42.0, 450.0, 70.0, 19.0 ],
+                                                                    "text": "set #0.snd_h"
                                                                 }
                                                             },
                                                             {
@@ -3190,12 +3201,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-57",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "float", "bang" ],
-                                                                    "patching_rect": [ 188.0, 226.0, 72.0, 19.0 ],
-                                                                    "text": "buffer~ snd_0h"
+                                                                    "patching_rect": [ 188.0, 226.0, 86.0, 19.0 ],
+                                                                    "text": "buffer~ #0.snd_h"
                                                                 }
                                                             },
                                                             {
@@ -3620,12 +3632,12 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
                                                         "classnamespace": "box",
-                                                        "rect": [ 34.0, 87.0, 685.0, 622.0 ],
+                                                        "rect": [ 134.0, 172.0, 685.0, 622.0 ],
                                                         "boxes": [
                                                             {
                                                                 "box": {
@@ -3661,7 +3673,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 0,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -3878,10 +3890,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-2",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 397.0, 151.0, 55.0, 39.0 ],
+                                                                    "patching_rect": [ 397.0, 151.0, 65.0, 19.0 ],
                                                                     "text": "s #0.traksel"
                                                                 }
                                                             },
@@ -3958,8 +3971,8 @@
                                                                     "numinlets": 1,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 188.0, 177.0, 99.0, 19.0 ],
-                                                                    "text": "loadmess _load_noize"
+                                                                    "patching_rect": [ 188.0, 177.0, 91.0, 19.0 ],
+                                                                    "text": "ll.ld _load_noize 100"
                                                                 }
                                                             },
                                                             {
@@ -3967,11 +3980,12 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-13",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 57.0, 76.0, 65.0, 39.0 ],
+                                                                    "patching_rect": [ 57.0, 76.0, 75.0, 19.0 ],
                                                                     "text": "r #0.sequlique"
                                                                 }
                                                             },
@@ -4189,10 +4203,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-39",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 196.0, 483.0, 82.0, 29.0 ],
+                                                                    "patching_rect": [ 196.0, 483.0, 92.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutR"
                                                                 }
                                                             },
@@ -4201,10 +4216,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-40",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 111.0, 483.0, 80.0, 29.0 ],
+                                                                    "patching_rect": [ 111.0, 483.0, 90.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutL"
                                                                 }
                                                             },
@@ -4371,12 +4387,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-54",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "signal", "bang" ],
-                                                                    "patching_rect": [ 111.0, 226.0, 64.0, 19.0 ],
-                                                                    "text": "play~ snd_0g"
+                                                                    "patching_rect": [ 111.0, 226.0, 80.0, 19.0 ],
+                                                                    "text": "play~ #0.snd_g"
                                                                 }
                                                             },
                                                             {
@@ -4384,12 +4401,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-55",
+                                                                    "linecount": 2,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 42.0, 450.0, 54.0, 19.0 ],
-                                                                    "text": "set snd_0g"
+                                                                    "patching_rect": [ 42.0, 450.0, 70.0, 19.0 ],
+                                                                    "text": "set #0.snd_g"
                                                                 }
                                                             },
                                                             {
@@ -4408,12 +4426,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-57",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "float", "bang" ],
-                                                                    "patching_rect": [ 188.0, 226.0, 72.0, 19.0 ],
-                                                                    "text": "buffer~ snd_0g"
+                                                                    "patching_rect": [ 188.0, 226.0, 86.0, 19.0 ],
+                                                                    "text": "buffer~ #0.snd_g"
                                                                 }
                                                             },
                                                             {
@@ -4838,12 +4857,12 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
                                                         "classnamespace": "box",
-                                                        "rect": [ 34.0, 87.0, 685.0, 622.0 ],
+                                                        "rect": [ 134.0, 172.0, 685.0, 622.0 ],
                                                         "boxes": [
                                                             {
                                                                 "box": {
@@ -4879,7 +4898,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 0,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -5096,10 +5115,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-2",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 388.0, 160.0, 55.0, 39.0 ],
+                                                                    "patching_rect": [ 388.0, 160.0, 65.0, 19.0 ],
                                                                     "text": "s #0.traksel"
                                                                 }
                                                             },
@@ -5176,8 +5196,8 @@
                                                                     "numinlets": 1,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 188.0, 177.0, 95.0, 19.0 ],
-                                                                    "text": "loadmess _load_sine"
+                                                                    "patching_rect": [ 188.0, 177.0, 86.0, 19.0 ],
+                                                                    "text": "ll.ld _load_sine 100"
                                                                 }
                                                             },
                                                             {
@@ -5185,11 +5205,12 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-13",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 57.0, 76.0, 65.0, 39.0 ],
+                                                                    "patching_rect": [ 57.0, 76.0, 75.0, 19.0 ],
                                                                     "text": "r #0.sequlique"
                                                                 }
                                                             },
@@ -5407,10 +5428,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-39",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 196.0, 483.0, 82.0, 29.0 ],
+                                                                    "patching_rect": [ 196.0, 483.0, 92.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutR"
                                                                 }
                                                             },
@@ -5419,10 +5441,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-40",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 111.0, 483.0, 80.0, 29.0 ],
+                                                                    "patching_rect": [ 111.0, 483.0, 90.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutL"
                                                                 }
                                                             },
@@ -5589,12 +5612,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-54",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "signal", "bang" ],
-                                                                    "patching_rect": [ 111.0, 226.0, 63.0, 19.0 ],
-                                                                    "text": "play~ snd_0f"
+                                                                    "patching_rect": [ 111.0, 226.0, 77.0, 19.0 ],
+                                                                    "text": "play~ #0.snd_f"
                                                                 }
                                                             },
                                                             {
@@ -5602,12 +5626,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-55",
+                                                                    "linecount": 2,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 42.0, 450.0, 53.0, 19.0 ],
-                                                                    "text": "set snd_0f"
+                                                                    "patching_rect": [ 42.0, 450.0, 68.0, 19.0 ],
+                                                                    "text": "set #0.snd_f"
                                                                 }
                                                             },
                                                             {
@@ -5626,12 +5651,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-57",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "float", "bang" ],
-                                                                    "patching_rect": [ 188.0, 226.0, 71.0, 19.0 ],
-                                                                    "text": "buffer~ snd_0f"
+                                                                    "patching_rect": [ 188.0, 226.0, 84.0, 19.0 ],
+                                                                    "text": "buffer~ #0.snd_f"
                                                                 }
                                                             },
                                                             {
@@ -6056,12 +6082,12 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
                                                         "classnamespace": "box",
-                                                        "rect": [ 177.0, 111.0, 685.0, 622.0 ],
+                                                        "rect": [ 144.0, 209.0, 685.0, 622.0 ],
                                                         "boxes": [
                                                             {
                                                                 "box": {
@@ -6097,7 +6123,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 0,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -6317,7 +6343,7 @@
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 396.0, 151.0, 55.0, 39.0 ],
+                                                                    "patching_rect": [ 396.0, 151.0, 70.0, 19.0 ],
                                                                     "text": "s #0.traksel"
                                                                 }
                                                             },
@@ -6394,8 +6420,8 @@
                                                                     "numinlets": 1,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 188.0, 177.0, 88.0, 19.0 ],
-                                                                    "text": "loadmess _load_hh"
+                                                                    "patching_rect": [ 188.0, 177.0, 62.0, 19.0 ],
+                                                                    "text": "ll.ld _load_hh"
                                                                 }
                                                             },
                                                             {
@@ -6407,7 +6433,7 @@
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 42.0, 74.0, 65.0, 39.0 ],
+                                                                    "patching_rect": [ 42.0, 74.0, 80.0, 19.0 ],
                                                                     "text": "r #0.sequlique"
                                                                 }
                                                             },
@@ -6628,7 +6654,7 @@
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 196.0, 483.0, 82.0, 29.0 ],
+                                                                    "patching_rect": [ 196.0, 483.0, 97.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutR"
                                                                 }
                                                             },
@@ -6640,7 +6666,7 @@
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 111.0, 483.0, 80.0, 29.0 ],
+                                                                    "patching_rect": [ 111.0, 483.0, 95.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutL"
                                                                 }
                                                             },
@@ -6811,8 +6837,8 @@
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "signal", "bang" ],
-                                                                    "patching_rect": [ 111.0, 226.0, 64.0, 19.0 ],
-                                                                    "text": "play~ snd_0d"
+                                                                    "patching_rect": [ 111.0, 226.0, 85.0, 19.0 ],
+                                                                    "text": "play~ #0.snd_d"
                                                                 }
                                                             },
                                                             {
@@ -6824,8 +6850,8 @@
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 42.0, 450.0, 54.0, 19.0 ],
-                                                                    "text": "set snd_0d"
+                                                                    "patching_rect": [ 42.0, 450.0, 75.0, 19.0 ],
+                                                                    "text": "set #0.snd_d"
                                                                 }
                                                             },
                                                             {
@@ -6848,8 +6874,8 @@
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "float", "bang" ],
-                                                                    "patching_rect": [ 188.0, 226.0, 72.0, 19.0 ],
-                                                                    "text": "buffer~ snd_0d"
+                                                                    "patching_rect": [ 188.0, 226.0, 91.0, 19.0 ],
+                                                                    "text": "buffer~ #0.snd_d"
                                                                 }
                                                             },
                                                             {
@@ -7274,7 +7300,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -7315,7 +7341,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 0,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -7532,10 +7558,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-2",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 397.0, 149.0, 55.0, 39.0 ],
+                                                                    "patching_rect": [ 397.0, 149.0, 65.0, 19.0 ],
                                                                     "text": "s #0.traksel"
                                                                 }
                                                             },
@@ -7612,8 +7639,8 @@
                                                                     "numinlets": 1,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 187.5, 177.0, 101.0, 19.0 ],
-                                                                    "text": "loadmess _load_snare"
+                                                                    "patching_rect": [ 187.5, 177.0, 92.0, 19.0 ],
+                                                                    "text": "ll.ld _load_snare 100"
                                                                 }
                                                             },
                                                             {
@@ -7621,11 +7648,12 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-13",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 57.0, 76.0, 65.0, 39.0 ],
+                                                                    "patching_rect": [ 57.0, 76.0, 75.0, 19.0 ],
                                                                     "text": "r #0.sequlique"
                                                                 }
                                                             },
@@ -7843,10 +7871,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-39",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 196.0, 483.0, 82.0, 29.0 ],
+                                                                    "patching_rect": [ 196.0, 483.0, 92.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutR"
                                                                 }
                                                             },
@@ -7855,10 +7884,11 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-40",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 111.0, 483.0, 80.0, 29.0 ],
+                                                                    "patching_rect": [ 111.0, 483.0, 90.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutL"
                                                                 }
                                                             },
@@ -8025,12 +8055,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-54",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "signal", "bang" ],
-                                                                    "patching_rect": [ 111.0, 226.0, 64.0, 19.0 ],
-                                                                    "text": "play~ snd_0s"
+                                                                    "patching_rect": [ 111.0, 226.0, 79.0, 19.0 ],
+                                                                    "text": "play~ #0.snd_s"
                                                                 }
                                                             },
                                                             {
@@ -8038,12 +8069,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-55",
+                                                                    "linecount": 2,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 42.0, 450.0, 54.0, 19.0 ],
-                                                                    "text": "set snd_0s"
+                                                                    "patching_rect": [ 42.0, 450.0, 70.0, 19.0 ],
+                                                                    "text": "set #0.snd_s"
                                                                 }
                                                             },
                                                             {
@@ -8062,12 +8094,13 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-57",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "float", "bang" ],
-                                                                    "patching_rect": [ 188.0, 226.0, 72.0, 19.0 ],
-                                                                    "text": "buffer~ snd_0s"
+                                                                    "patching_rect": [ 188.0, 226.0, 86.0, 19.0 ],
+                                                                    "text": "buffer~ #0.snd_s"
                                                                 }
                                                             },
                                                             {
@@ -8481,7 +8514,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -8522,7 +8555,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 0,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -8729,7 +8762,7 @@
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 397.0, 151.0, 55.0, 39.0 ],
+                                                                    "patching_rect": [ 397.0, 151.0, 70.0, 19.0 ],
                                                                     "text": "s #0.traksel"
                                                                 }
                                                             },
@@ -8806,8 +8839,8 @@
                                                                     "numinlets": 1,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 188.0, 177.0, 95.0, 19.0 ],
-                                                                    "text": "loadmess _load_kick"
+                                                                    "patching_rect": [ 188.0, 177.0, 85.0, 19.0 ],
+                                                                    "text": "ll.ld _load_kick 100"
                                                                 }
                                                             },
                                                             {
@@ -8819,7 +8852,7 @@
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 26.0, 51.0, 65.0, 39.0 ],
+                                                                    "patching_rect": [ 26.0, 51.0, 80.0, 19.0 ],
                                                                     "text": "r #0.sequlique"
                                                                 }
                                                             },
@@ -9040,7 +9073,7 @@
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 196.0, 483.0, 82.0, 29.0 ],
+                                                                    "patching_rect": [ 196.0, 483.0, 97.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutR"
                                                                 }
                                                             },
@@ -9052,7 +9085,7 @@
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
-                                                                    "patching_rect": [ 111.0, 483.0, 80.0, 29.0 ],
+                                                                    "patching_rect": [ 111.0, 483.0, 95.0, 19.0 ],
                                                                     "text": "send~ #0.mstoutL"
                                                                 }
                                                             },
@@ -9236,8 +9269,8 @@
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "signal", "bang" ],
-                                                                    "patching_rect": [ 111.0, 226.0, 64.0, 19.0 ],
-                                                                    "text": "play~ snd_0a"
+                                                                    "patching_rect": [ 111.0, 226.0, 85.0, 19.0 ],
+                                                                    "text": "play~ #0.snd_a"
                                                                 }
                                                             },
                                                             {
@@ -9249,8 +9282,8 @@
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 42.0, 450.0, 54.0, 19.0 ],
-                                                                    "text": "set snd_0a"
+                                                                    "patching_rect": [ 42.0, 450.0, 75.0, 19.0 ],
+                                                                    "text": "set #0.snd_a"
                                                                 }
                                                             },
                                                             {
@@ -9273,8 +9306,8 @@
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
                                                                     "outlettype": [ "float", "bang" ],
-                                                                    "patching_rect": [ 188.0, 226.0, 72.0, 19.0 ],
-                                                                    "text": "buffer~ snd_0a"
+                                                                    "patching_rect": [ 188.0, 226.0, 91.0, 19.0 ],
+                                                                    "text": "buffer~ #0.snd_a"
                                                                 }
                                                             },
                                                             {
@@ -9959,7 +9992,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -9991,7 +10024,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -10308,6 +10341,7 @@
                                                     "fontname": "Arial",
                                                     "fontsize": 9.0,
                                                     "id": "obj-4",
+                                                    "linecount": 2,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 1,
@@ -10321,6 +10355,7 @@
                                                     "fontname": "Arial",
                                                     "fontsize": 9.0,
                                                     "id": "obj-5",
+                                                    "linecount": 2,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 1,
@@ -10398,7 +10433,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -10529,7 +10564,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -10783,7 +10818,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-49",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -11166,7 +11201,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-8",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -11223,6 +11258,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-12",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -11248,6 +11284,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-14",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -11475,7 +11512,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-20",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -11772,7 +11809,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-31",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -12056,7 +12093,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-41",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -12729,7 +12766,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -12843,7 +12880,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-49",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -13086,7 +13123,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-8",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -13143,6 +13180,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-12",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -13168,6 +13206,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-14",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -13255,7 +13294,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-20",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -13412,7 +13451,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-31",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -13556,7 +13595,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-41",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -14229,7 +14268,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -14343,7 +14382,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-49",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -14586,7 +14625,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-8",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -14643,6 +14682,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-12",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -14668,6 +14708,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-14",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -14755,7 +14796,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-20",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -14912,7 +14953,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-31",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -15056,7 +15097,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-41",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -15729,7 +15770,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -15843,7 +15884,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-49",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -16086,7 +16127,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-8",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -16143,6 +16184,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-12",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -16168,6 +16210,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-14",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -16255,7 +16298,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-20",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -16412,7 +16455,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-31",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -16556,7 +16599,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-41",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -17229,7 +17272,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -17343,7 +17386,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-49",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -17586,7 +17629,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-8",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -17643,6 +17686,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-12",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -17668,6 +17712,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-14",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -17755,7 +17800,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-20",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -17912,7 +17957,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-31",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -18056,7 +18101,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-41",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -18800,7 +18845,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -18921,7 +18966,7 @@
                                                             {
                                                                 "box": {
                                                                     "coll_data": {
-                                                                        "count": 48,
+                                                                        "count": 51,
                                                                         "data": [
                                                                             {
                                                                                 "key": 0,
@@ -18941,186 +18986,198 @@
                                                                             },
                                                                             {
                                                                                 "key": 4,
-                                                                                "value": [ 656 ]
+                                                                                "value": [ 615 ]
                                                                             },
                                                                             {
                                                                                 "key": 5,
-                                                                                "value": [ 174 ]
+                                                                                "value": [ 679 ]
                                                                             },
                                                                             {
                                                                                 "key": 6,
-                                                                                "value": [ 259 ]
+                                                                                "value": [ 743 ]
                                                                             },
                                                                             {
                                                                                 "key": 7,
-                                                                                "value": [ 408 ]
+                                                                                "value": [ 492 ]
                                                                             },
                                                                             {
                                                                                 "key": 8,
-                                                                                "value": [ 440 ]
+                                                                                "value": [ 524 ]
                                                                             },
                                                                             {
                                                                                 "key": 9,
-                                                                                "value": [ 504 ]
+                                                                                "value": [ 556 ]
                                                                             },
                                                                             {
                                                                                 "key": 10,
-                                                                                "value": [ 536 ]
+                                                                                "value": [ 620 ]
                                                                             },
                                                                             {
                                                                                 "key": 11,
-                                                                                "value": [ 600 ]
+                                                                                "value": [ 652 ]
                                                                             },
                                                                             {
                                                                                 "key": 12,
-                                                                                "value": [ 632 ]
+                                                                                "value": [ 684 ]
                                                                             },
                                                                             {
                                                                                 "key": 13,
-                                                                                "value": [ 134 ]
+                                                                                "value": [ 748 ]
                                                                             },
                                                                             {
                                                                                 "key": 14,
-                                                                                "value": [ 198 ]
+                                                                                "value": [ 780 ]
                                                                             },
                                                                             {
                                                                                 "key": 15,
-                                                                                "value": [ 294 ]
+                                                                                "value": [ 844 ]
                                                                             },
                                                                             {
                                                                                 "key": 16,
-                                                                                "value": [ 358 ]
+                                                                                "value": [ 876 ]
                                                                             },
                                                                             {
                                                                                 "key": 17,
-                                                                                "value": [ 454 ]
+                                                                                "value": [ 908 ]
                                                                             },
                                                                             {
                                                                                 "key": 18,
-                                                                                "value": [ 518 ]
+                                                                                "value": [ 276 ]
                                                                             },
                                                                             {
                                                                                 "key": 19,
-                                                                                "value": [ 614 ]
+                                                                                "value": [ 308 ]
                                                                             },
                                                                             {
                                                                                 "key": 20,
-                                                                                "value": [ 678 ]
+                                                                                "value": [ 372 ]
                                                                             },
                                                                             {
                                                                                 "key": 21,
-                                                                                "value": [ 853 ]
+                                                                                "value": [ 404 ]
                                                                             },
                                                                             {
                                                                                 "key": 22,
-                                                                                "value": [ 188 ]
+                                                                                "value": [ 468 ]
                                                                             },
                                                                             {
                                                                                 "key": 23,
-                                                                                "value": [ 284 ]
+                                                                                "value": [ 532 ]
                                                                             },
                                                                             {
                                                                                 "key": 24,
-                                                                                "value": [ 380 ]
+                                                                                "value": [ 564 ]
                                                                             },
                                                                             {
                                                                                 "key": 25,
-                                                                                "value": [ 476 ]
+                                                                                "value": [ 628 ]
                                                                             },
                                                                             {
                                                                                 "key": 26,
-                                                                                "value": [ 572 ]
+                                                                                "value": [ 692 ]
                                                                             },
                                                                             {
                                                                                 "key": 27,
-                                                                                "value": [ 604 ]
+                                                                                "value": [ 724 ]
                                                                             },
                                                                             {
                                                                                 "key": 28,
-                                                                                "value": [ 402 ]
+                                                                                "value": [ 788 ]
                                                                             },
                                                                             {
                                                                                 "key": 29,
-                                                                                "value": [ 434 ]
+                                                                                "value": [ 852 ]
                                                                             },
                                                                             {
                                                                                 "key": 30,
-                                                                                "value": [ 466 ]
+                                                                                "value": [ 884 ]
                                                                             },
                                                                             {
                                                                                 "key": 31,
-                                                                                "value": [ 498 ]
+                                                                                "value": [ 207 ]
                                                                             },
                                                                             {
                                                                                 "key": 32,
-                                                                                "value": [ 562 ]
+                                                                                "value": [ 239 ]
                                                                             },
                                                                             {
                                                                                 "key": 33,
-                                                                                "value": [ 594 ]
+                                                                                "value": [ 303 ]
                                                                             },
                                                                             {
                                                                                 "key": 34,
-                                                                                "value": [ 626 ]
+                                                                                "value": [ 335 ]
                                                                             },
                                                                             {
                                                                                 "key": 35,
-                                                                                "value": [ 690 ]
+                                                                                "value": [ 399 ]
                                                                             },
                                                                             {
                                                                                 "key": 36,
-                                                                                "value": [ 722 ]
+                                                                                "value": [ 463 ]
                                                                             },
                                                                             {
                                                                                 "key": 37,
-                                                                                "value": [ 754 ]
+                                                                                "value": [ 495 ]
                                                                             },
                                                                             {
                                                                                 "key": 38,
-                                                                                "value": [ 786 ]
+                                                                                "value": [ 559 ]
                                                                             },
                                                                             {
                                                                                 "key": 39,
-                                                                                "value": [ 850 ]
+                                                                                "value": [ 623 ]
                                                                             },
                                                                             {
                                                                                 "key": 40,
-                                                                                "value": [ 201 ]
+                                                                                "value": [ 655 ]
                                                                             },
                                                                             {
                                                                                 "key": 41,
-                                                                                "value": [ 329 ]
+                                                                                "value": [ 719 ]
                                                                             },
                                                                             {
                                                                                 "key": 42,
-                                                                                "value": [ 457 ]
+                                                                                "value": [ 378 ]
                                                                             },
                                                                             {
                                                                                 "key": 43,
-                                                                                "value": [ 585 ]
+                                                                                "value": [ 410 ]
                                                                             },
                                                                             {
                                                                                 "key": 44,
-                                                                                "value": [ 713 ]
+                                                                                "value": [ 474 ]
                                                                             },
                                                                             {
                                                                                 "key": 45,
-                                                                                "value": [ 593 ]
+                                                                                "value": [ 538 ]
                                                                             },
                                                                             {
                                                                                 "key": 46,
-                                                                                "value": [ 785 ]
+                                                                                "value": [ 602 ]
                                                                             },
                                                                             {
                                                                                 "key": 47,
-                                                                                "value": [ 945 ]
+                                                                                "value": [ 666 ]
+                                                                            },
+                                                                            {
+                                                                                "key": 48,
+                                                                                "value": [ 698 ]
+                                                                            },
+                                                                            {
+                                                                                "key": 49,
+                                                                                "value": [ 762 ]
+                                                                            },
+                                                                            {
+                                                                                "key": 50,
+                                                                                "value": [ 794 ]
                                                                             }
                                                                         ]
                                                                     },
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-48",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -19538,7 +19595,7 @@
                                                             {
                                                                 "box": {
                                                                     "coll_data": {
-                                                                        "count": 48,
+                                                                        "count": 51,
                                                                         "data": [
                                                                             {
                                                                                 "key": 0,
@@ -19558,186 +19615,198 @@
                                                                             },
                                                                             {
                                                                                 "key": 4,
-                                                                                "value": [ 656 ]
+                                                                                "value": [ 615 ]
                                                                             },
                                                                             {
                                                                                 "key": 5,
-                                                                                "value": [ 174 ]
+                                                                                "value": [ 679 ]
                                                                             },
                                                                             {
                                                                                 "key": 6,
-                                                                                "value": [ 259 ]
+                                                                                "value": [ 743 ]
                                                                             },
                                                                             {
                                                                                 "key": 7,
-                                                                                "value": [ 408 ]
+                                                                                "value": [ 492 ]
                                                                             },
                                                                             {
                                                                                 "key": 8,
-                                                                                "value": [ 440 ]
+                                                                                "value": [ 524 ]
                                                                             },
                                                                             {
                                                                                 "key": 9,
-                                                                                "value": [ 504 ]
+                                                                                "value": [ 556 ]
                                                                             },
                                                                             {
                                                                                 "key": 10,
-                                                                                "value": [ 536 ]
+                                                                                "value": [ 620 ]
                                                                             },
                                                                             {
                                                                                 "key": 11,
-                                                                                "value": [ 600 ]
+                                                                                "value": [ 652 ]
                                                                             },
                                                                             {
                                                                                 "key": 12,
-                                                                                "value": [ 632 ]
+                                                                                "value": [ 684 ]
                                                                             },
                                                                             {
                                                                                 "key": 13,
-                                                                                "value": [ 134 ]
+                                                                                "value": [ 748 ]
                                                                             },
                                                                             {
                                                                                 "key": 14,
-                                                                                "value": [ 198 ]
+                                                                                "value": [ 780 ]
                                                                             },
                                                                             {
                                                                                 "key": 15,
-                                                                                "value": [ 294 ]
+                                                                                "value": [ 844 ]
                                                                             },
                                                                             {
                                                                                 "key": 16,
-                                                                                "value": [ 358 ]
+                                                                                "value": [ 876 ]
                                                                             },
                                                                             {
                                                                                 "key": 17,
-                                                                                "value": [ 454 ]
+                                                                                "value": [ 908 ]
                                                                             },
                                                                             {
                                                                                 "key": 18,
-                                                                                "value": [ 518 ]
+                                                                                "value": [ 276 ]
                                                                             },
                                                                             {
                                                                                 "key": 19,
-                                                                                "value": [ 614 ]
+                                                                                "value": [ 308 ]
                                                                             },
                                                                             {
                                                                                 "key": 20,
-                                                                                "value": [ 678 ]
+                                                                                "value": [ 372 ]
                                                                             },
                                                                             {
                                                                                 "key": 21,
-                                                                                "value": [ 853 ]
+                                                                                "value": [ 404 ]
                                                                             },
                                                                             {
                                                                                 "key": 22,
-                                                                                "value": [ 188 ]
+                                                                                "value": [ 468 ]
                                                                             },
                                                                             {
                                                                                 "key": 23,
-                                                                                "value": [ 284 ]
+                                                                                "value": [ 532 ]
                                                                             },
                                                                             {
                                                                                 "key": 24,
-                                                                                "value": [ 380 ]
+                                                                                "value": [ 564 ]
                                                                             },
                                                                             {
                                                                                 "key": 25,
-                                                                                "value": [ 476 ]
+                                                                                "value": [ 628 ]
                                                                             },
                                                                             {
                                                                                 "key": 26,
-                                                                                "value": [ 572 ]
+                                                                                "value": [ 692 ]
                                                                             },
                                                                             {
                                                                                 "key": 27,
-                                                                                "value": [ 604 ]
+                                                                                "value": [ 724 ]
                                                                             },
                                                                             {
                                                                                 "key": 28,
-                                                                                "value": [ 402 ]
+                                                                                "value": [ 788 ]
                                                                             },
                                                                             {
                                                                                 "key": 29,
-                                                                                "value": [ 434 ]
+                                                                                "value": [ 852 ]
                                                                             },
                                                                             {
                                                                                 "key": 30,
-                                                                                "value": [ 466 ]
+                                                                                "value": [ 884 ]
                                                                             },
                                                                             {
                                                                                 "key": 31,
-                                                                                "value": [ 498 ]
+                                                                                "value": [ 207 ]
                                                                             },
                                                                             {
                                                                                 "key": 32,
-                                                                                "value": [ 562 ]
+                                                                                "value": [ 239 ]
                                                                             },
                                                                             {
                                                                                 "key": 33,
-                                                                                "value": [ 594 ]
+                                                                                "value": [ 303 ]
                                                                             },
                                                                             {
                                                                                 "key": 34,
-                                                                                "value": [ 626 ]
+                                                                                "value": [ 335 ]
                                                                             },
                                                                             {
                                                                                 "key": 35,
-                                                                                "value": [ 690 ]
+                                                                                "value": [ 399 ]
                                                                             },
                                                                             {
                                                                                 "key": 36,
-                                                                                "value": [ 722 ]
+                                                                                "value": [ 463 ]
                                                                             },
                                                                             {
                                                                                 "key": 37,
-                                                                                "value": [ 754 ]
+                                                                                "value": [ 495 ]
                                                                             },
                                                                             {
                                                                                 "key": 38,
-                                                                                "value": [ 786 ]
+                                                                                "value": [ 559 ]
                                                                             },
                                                                             {
                                                                                 "key": 39,
-                                                                                "value": [ 850 ]
+                                                                                "value": [ 623 ]
                                                                             },
                                                                             {
                                                                                 "key": 40,
-                                                                                "value": [ 201 ]
+                                                                                "value": [ 655 ]
                                                                             },
                                                                             {
                                                                                 "key": 41,
-                                                                                "value": [ 329 ]
+                                                                                "value": [ 719 ]
                                                                             },
                                                                             {
                                                                                 "key": 42,
-                                                                                "value": [ 457 ]
+                                                                                "value": [ 378 ]
                                                                             },
                                                                             {
                                                                                 "key": 43,
-                                                                                "value": [ 585 ]
+                                                                                "value": [ 410 ]
                                                                             },
                                                                             {
                                                                                 "key": 44,
-                                                                                "value": [ 713 ]
+                                                                                "value": [ 474 ]
                                                                             },
                                                                             {
                                                                                 "key": 45,
-                                                                                "value": [ 593 ]
+                                                                                "value": [ 538 ]
                                                                             },
                                                                             {
                                                                                 "key": 46,
-                                                                                "value": [ 785 ]
+                                                                                "value": [ 602 ]
                                                                             },
                                                                             {
                                                                                 "key": 47,
-                                                                                "value": [ 945 ]
+                                                                                "value": [ 666 ]
+                                                                            },
+                                                                            {
+                                                                                "key": 48,
+                                                                                "value": [ 698 ]
+                                                                            },
+                                                                            {
+                                                                                "key": 49,
+                                                                                "value": [ 762 ]
+                                                                            },
+                                                                            {
+                                                                                "key": 50,
+                                                                                "value": [ 794 ]
                                                                             }
                                                                         ]
                                                                     },
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-32",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -19857,7 +19926,7 @@
                                                             {
                                                                 "box": {
                                                                     "coll_data": {
-                                                                        "count": 48,
+                                                                        "count": 51,
                                                                         "data": [
                                                                             {
                                                                                 "key": 0,
@@ -19877,186 +19946,198 @@
                                                                             },
                                                                             {
                                                                                 "key": 4,
-                                                                                "value": [ 656 ]
+                                                                                "value": [ 615 ]
                                                                             },
                                                                             {
                                                                                 "key": 5,
-                                                                                "value": [ 174 ]
+                                                                                "value": [ 679 ]
                                                                             },
                                                                             {
                                                                                 "key": 6,
-                                                                                "value": [ 259 ]
+                                                                                "value": [ 743 ]
                                                                             },
                                                                             {
                                                                                 "key": 7,
-                                                                                "value": [ 408 ]
+                                                                                "value": [ 492 ]
                                                                             },
                                                                             {
                                                                                 "key": 8,
-                                                                                "value": [ 440 ]
+                                                                                "value": [ 524 ]
                                                                             },
                                                                             {
                                                                                 "key": 9,
-                                                                                "value": [ 504 ]
+                                                                                "value": [ 556 ]
                                                                             },
                                                                             {
                                                                                 "key": 10,
-                                                                                "value": [ 536 ]
+                                                                                "value": [ 620 ]
                                                                             },
                                                                             {
                                                                                 "key": 11,
-                                                                                "value": [ 600 ]
+                                                                                "value": [ 652 ]
                                                                             },
                                                                             {
                                                                                 "key": 12,
-                                                                                "value": [ 632 ]
+                                                                                "value": [ 684 ]
                                                                             },
                                                                             {
                                                                                 "key": 13,
-                                                                                "value": [ 134 ]
+                                                                                "value": [ 748 ]
                                                                             },
                                                                             {
                                                                                 "key": 14,
-                                                                                "value": [ 198 ]
+                                                                                "value": [ 780 ]
                                                                             },
                                                                             {
                                                                                 "key": 15,
-                                                                                "value": [ 294 ]
+                                                                                "value": [ 844 ]
                                                                             },
                                                                             {
                                                                                 "key": 16,
-                                                                                "value": [ 358 ]
+                                                                                "value": [ 876 ]
                                                                             },
                                                                             {
                                                                                 "key": 17,
-                                                                                "value": [ 454 ]
+                                                                                "value": [ 908 ]
                                                                             },
                                                                             {
                                                                                 "key": 18,
-                                                                                "value": [ 518 ]
+                                                                                "value": [ 276 ]
                                                                             },
                                                                             {
                                                                                 "key": 19,
-                                                                                "value": [ 614 ]
+                                                                                "value": [ 308 ]
                                                                             },
                                                                             {
                                                                                 "key": 20,
-                                                                                "value": [ 678 ]
+                                                                                "value": [ 372 ]
                                                                             },
                                                                             {
                                                                                 "key": 21,
-                                                                                "value": [ 853 ]
+                                                                                "value": [ 404 ]
                                                                             },
                                                                             {
                                                                                 "key": 22,
-                                                                                "value": [ 188 ]
+                                                                                "value": [ 468 ]
                                                                             },
                                                                             {
                                                                                 "key": 23,
-                                                                                "value": [ 284 ]
+                                                                                "value": [ 532 ]
                                                                             },
                                                                             {
                                                                                 "key": 24,
-                                                                                "value": [ 380 ]
+                                                                                "value": [ 564 ]
                                                                             },
                                                                             {
                                                                                 "key": 25,
-                                                                                "value": [ 476 ]
+                                                                                "value": [ 628 ]
                                                                             },
                                                                             {
                                                                                 "key": 26,
-                                                                                "value": [ 572 ]
+                                                                                "value": [ 692 ]
                                                                             },
                                                                             {
                                                                                 "key": 27,
-                                                                                "value": [ 604 ]
+                                                                                "value": [ 724 ]
                                                                             },
                                                                             {
                                                                                 "key": 28,
-                                                                                "value": [ 402 ]
+                                                                                "value": [ 788 ]
                                                                             },
                                                                             {
                                                                                 "key": 29,
-                                                                                "value": [ 434 ]
+                                                                                "value": [ 852 ]
                                                                             },
                                                                             {
                                                                                 "key": 30,
-                                                                                "value": [ 466 ]
+                                                                                "value": [ 884 ]
                                                                             },
                                                                             {
                                                                                 "key": 31,
-                                                                                "value": [ 498 ]
+                                                                                "value": [ 207 ]
                                                                             },
                                                                             {
                                                                                 "key": 32,
-                                                                                "value": [ 562 ]
+                                                                                "value": [ 239 ]
                                                                             },
                                                                             {
                                                                                 "key": 33,
-                                                                                "value": [ 594 ]
+                                                                                "value": [ 303 ]
                                                                             },
                                                                             {
                                                                                 "key": 34,
-                                                                                "value": [ 626 ]
+                                                                                "value": [ 335 ]
                                                                             },
                                                                             {
                                                                                 "key": 35,
-                                                                                "value": [ 690 ]
+                                                                                "value": [ 399 ]
                                                                             },
                                                                             {
                                                                                 "key": 36,
-                                                                                "value": [ 722 ]
+                                                                                "value": [ 463 ]
                                                                             },
                                                                             {
                                                                                 "key": 37,
-                                                                                "value": [ 754 ]
+                                                                                "value": [ 495 ]
                                                                             },
                                                                             {
                                                                                 "key": 38,
-                                                                                "value": [ 786 ]
+                                                                                "value": [ 559 ]
                                                                             },
                                                                             {
                                                                                 "key": 39,
-                                                                                "value": [ 850 ]
+                                                                                "value": [ 623 ]
                                                                             },
                                                                             {
                                                                                 "key": 40,
-                                                                                "value": [ 201 ]
+                                                                                "value": [ 655 ]
                                                                             },
                                                                             {
                                                                                 "key": 41,
-                                                                                "value": [ 329 ]
+                                                                                "value": [ 719 ]
                                                                             },
                                                                             {
                                                                                 "key": 42,
-                                                                                "value": [ 457 ]
+                                                                                "value": [ 378 ]
                                                                             },
                                                                             {
                                                                                 "key": 43,
-                                                                                "value": [ 585 ]
+                                                                                "value": [ 410 ]
                                                                             },
                                                                             {
                                                                                 "key": 44,
-                                                                                "value": [ 713 ]
+                                                                                "value": [ 474 ]
                                                                             },
                                                                             {
                                                                                 "key": 45,
-                                                                                "value": [ 593 ]
+                                                                                "value": [ 538 ]
                                                                             },
                                                                             {
                                                                                 "key": 46,
-                                                                                "value": [ 785 ]
+                                                                                "value": [ 602 ]
                                                                             },
                                                                             {
                                                                                 "key": 47,
-                                                                                "value": [ 945 ]
+                                                                                "value": [ 666 ]
+                                                                            },
+                                                                            {
+                                                                                "key": 48,
+                                                                                "value": [ 698 ]
+                                                                            },
+                                                                            {
+                                                                                "key": 49,
+                                                                                "value": [ 762 ]
+                                                                            },
+                                                                            {
+                                                                                "key": 50,
+                                                                                "value": [ 794 ]
                                                                             }
                                                                         ]
                                                                     },
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-41",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -20726,7 +20807,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -20831,6 +20912,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-49",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -21050,6 +21132,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-8",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -21106,6 +21189,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-12",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -21131,6 +21215,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-14",
+                                                                    "linecount": 3,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -21209,6 +21294,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-20",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -21357,6 +21443,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-31",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -21491,6 +21578,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-41",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
