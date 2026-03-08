@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 424.0, 84.0, 162.0, 279.0 ],
+        "rect": [ 589.0, 171.0, 162.0, 279.0 ],
         "toolbarvisible": 0,
         "enablehscroll": 0,
         "enablevscroll": 0,
@@ -17,16 +17,28 @@
         "boxes": [
             {
                 "box": {
-                    "annotation": "presets grid. click on ppooll in the ho_st to find info about it",
-                    "filename": "ll.pattr_ui.js",
-                    "id": "obj-10",
-                    "jsarguments": [ 14, "255 255 255", "50 50 50", "255 0 0", "0 255 0", "gverb@1" ],
-                    "maxclass": "jsui",
+                    "embedstate": [
+                        [ "boxsize", 14 ],
+                        [ "vbrgb", 0.19607843137254902, 0.19607843137254902, 0.19607843137254902, 1 ],
+                        [ "vfrgb", 1, 1, 1, 1 ],
+                        [ "vrgb2", 1, 0, 0, 1 ],
+                        [ "vrgb3", 0, 1, 0, 1 ]
+                    ],
+                    "filename": "ll.pattr_v8ui.js",
+                    "id": "obj-8",
+                    "jsarguments": [ "" ],
+                    "maxclass": "v8ui",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 71.0, 210.0, 91.0, 16.0 ],
+                    "textfile": {
+                        "filename": "ll.pattr_v8ui.js",
+                        "flags": 0,
+                        "embed": 0,
+                        "autowatch": 1
+                    },
                     "varname": "presets"
                 }
             },
@@ -134,12 +146,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 705.0, 320.0, 660.0, 447.0 ],
+                        "rect": [ 801.0, 266.0, 660.0, 447.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -295,7 +307,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1262,7 +1274,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1760,7 +1772,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2081,7 +2093,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-21",
-                    "items": [ "268647__pausenraum__sps1-clsn-b-4bar126.aiff", ",", "YoungJae - Emotions II BPM 125 ( Hold On, We're Going Home - Drake ft Majid Jordan).wav", ",", "Guitar1.wav" ],
+                    "items": "<empty>",
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -2100,8 +2112,13 @@
                     "active": {
                         "preset-ramp": 0,
                         "presets": 0,
+                        "act": 0,
                         "act::active_store": 0,
-                        "act::master/activest": 0,
+                        "act::master": 0,
+                        "act::u751015509": 0,
+                        "act::pres_menu": 0,
+                        "act::tetris_menu": 0,
+                        "act::title_menu": 0,
                         "ll.blues": 0,
                         "ll.blues::status": 0,
                         "ll.blues::outputs~": 0,
@@ -2127,7 +2144,7 @@
                         "ll.blues::levels": 5
                     },
                     "saved_object_attributes": {
-                        "client_rect": [ 499, 162, 1139, 402 ],
+                        "client_rect": [ 434, 164, 1512, 407 ],
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "storage_rect": [ 0, 0, 640, 240 ]
@@ -2182,9 +2199,9 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 492.0, 197.0, 107.0, 22.0 ],
                     "restore": {
-                        "buffers": [ "Guitar1.wav" ],
+                        "buffers": [ "" ],
                         "downsample": [ 0.0 ],
-                        "multisliders": [ 6, 8, 9, 9, 10, 10, 10, 10, 9, 8, 7, 6, 6, 6, 6, 5, 5, 5, 6, 6, 10, 10, 9, 9, 9, 8, 8, 8, 0, 0, 3, 6 ],
+                        "multisliders": [ 22, 23, 24, 25, 24, 24, 23, 24, 24, 25, 27, 29, 30, 31, 31, 32, 1, 2, 3, 2, 3, 4, 5, 4, 5, 5, 14, 15, 20, 19, 19, 19 ],
                         "preset-ramp": [ 0.0 ],
                         "presets": [ 0 ],
                         "random": [ -1 ],
@@ -2192,27 +2209,6 @@
                     },
                     "text": "autopattr autopattr",
                     "varname": "autopattr"
-                }
-            },
-            {
-                "box": {
-                    "args": [ "chucker@", "§ffffff" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-12",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "actmakeB.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 0.0, 0.0, 76.07421875, 16.0 ],
-                    "varname": "act",
-                    "viewvisibility": 1
                 }
             },
             {
@@ -2244,6 +2240,27 @@
                     "textovercolor": [ 0.584313725490196, 0.815686274509804, 1.0, 1.0 ],
                     "usetextovercolor": 1,
                     "varname": "random"
+                }
+            },
+            {
+                "box": {
+                    "args": [ "chucker@", "§ffffff" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-2",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "act.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 0.0, 0.0, 76.07421875, 16.0 ],
+                    "varname": "act",
+                    "viewvisibility": 1
                 }
             }
         ],
