@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 81.0, 400.0, 538.0, 311.0 ],
+        "rect": [ 50.0, 396.0, 538.0, 311.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -18,16 +18,28 @@
         "boxes": [
             {
                 "box": {
-                    "annotation": "presets grid. click on ppooll in the ho_st to find info about it",
-                    "filename": "ll.pattr_ui.js",
-                    "id": "obj-23",
-                    "jsarguments": [ 13, "255 255 255", "50 50 50", "255 0 0", "0 255 0", "delayloops1" ],
-                    "maxclass": "jsui",
+                    "embedstate": [
+                        [ "boxsize", 13 ],
+                        [ "vbrgb", 0.19607843137254902, 0.19607843137254902, 0.19607843137254902, 1 ],
+                        [ "vfrgb", 1, 1, 1, 1 ],
+                        [ "vrgb2", 1, 0, 0, 1 ],
+                        [ "vrgb3", 0, 1, 0, 1 ]
+                    ],
+                    "filename": "ll.pattr_v8ui.js",
+                    "id": "obj-14",
+                    "jsarguments": [ "" ],
+                    "maxclass": "v8ui",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 307.0, 0.0, 155.0, 15.0 ],
+                    "textfile": {
+                        "filename": "ll.pattr_v8ui.js",
+                        "flags": 0,
+                        "embed": 0,
+                        "autowatch": 1
+                    },
                     "varname": "presets"
                 }
             },
@@ -331,7 +343,7 @@
             },
             {
                 "box": {
-                    "addpoints": [ 0.0, 0.0, 0, 68.85513671027341, 1.0, 0, 77.0, 0.0, 0 ],
+                    "addpoints": [ 0.0, 0.0, 0, 2500.5, 1.0, 0, 10005.0, 0.0, 0 ],
                     "bgcolor": [ 0.0, 0.066667, 0.066667, 1.0 ],
                     "classic_curve": 1,
                     "clickadd": 0,
@@ -492,7 +504,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -863,7 +875,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1647,7 +1659,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2291,7 +2303,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -4531,7 +4543,7 @@
                             },
                             {
                                 "box": {
-                                    "addpoints": [ 0.0, 0.0, 0, 68.85513671027341, 1.0, 0, 77.0, 0.0, 0 ],
+                                    "addpoints": [ 0.0, 0.0, 0, 2500.5, 1.0, 0, 10005.0, 0.0, 0 ],
                                     "bgcolor": [ 0.0, 0.066667, 0.066667, 1.0 ],
                                     "classic_curve": 1,
                                     "clickadd": 0,
@@ -4664,7 +4676,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -5994,8 +6006,13 @@
                     "active": {
                         "preset-ramp": 0,
                         "presets": 0,
+                        "act": 0,
                         "act::active_store": 0,
-                        "act::master/activest": 0,
+                        "act::master": 0,
+                        "act::u751015509": 0,
+                        "act::pres_menu": 0,
+                        "act::tetris_menu": 0,
+                        "act::title_menu": 0,
                         "ll.blues": 0,
                         "ll.blues::status": 0,
                         "ll.blues::outputs~": 0,
@@ -6078,16 +6095,16 @@
                     "restore": {
                         "bpmz": [ 120 ],
                         "chords": [ 0, 38, 2, 33, 4, 36, 5, 33, 7, 33, 8, 9 ],
-                        "detune_echo": [ 37, 26 ],
-                        "env_graph": [ 10000.0, 0.0, 1.0, 0.0, 0.0, 0, 68.85513671027341, 1.0, 0, 77.0, 0.0, 0, "linear" ],
-                        "envelope": [ 21, 3 ],
+                        "detune_echo": [ 90, 26 ],
+                        "env_graph": [ 10000.0, 0.0, 1.0, 0.0, 0.0, 0, 2500.5, 1.0, 0, 10005.0, 0.0, 0, "linear" ],
+                        "envelope": [ 127, 3 ],
                         "menuz": [ 0 ],
-                        "note_range": [ 33, 30 ],
+                        "note_range": [ 47, 30 ],
                         "on/off": [ 1 ],
                         "preset-ramp": [ 0 ],
-                        "presets": [ 7 ],
-                        "prob_vol": [ 55, 41 ],
-                        "range_slider": [ 41, 47, 0, 59, 65, 0, 0, 0, 90, 0, 102, 0, 114, 120, 0, 120, 114, 0, 0, 0, 90, 0, 78, 0, 65, 59, 0, 47, 41, 0, 0, 0, 17, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                        "presets": [ 0 ],
+                        "prob_vol": [ 4, 41 ],
+                        "range_slider": [ 24, 29, 0, 38, 43, 0, 0, 0, 61, 0, 71, 0, 80, 85, 0, 94, 99, 0, 0, 0, 117, 0, 127, 0, 117, 113, 0, 103, 99, 0, 0, 0, 80, 0, 71, 0, 61, 57, 0, 47, 43, 0, 0, 0, 24, 0, 15, 0, 6, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
                     },
                     "text": "autopattr autopattr",
                     "varname": "autopattr"
@@ -6115,27 +6132,6 @@
             },
             {
                 "box": {
-                    "args": [ "sev@", "§006496" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-9",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "actmakeB.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 0.0, 0.0, 50.0703125, 16.0 ],
-                    "varname": "act",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "hidden": 1,
                     "id": "obj-11",
                     "maxclass": "newobj",
@@ -6145,6 +6141,27 @@
                     "patching_rect": [ 664.0, 84.0, 106.0, 20.0 ],
                     "text": "pattrforward act::in2",
                     "varname": "pf"
+                }
+            },
+            {
+                "box": {
+                    "args": [ "sev@", "§006496" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-12",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "act.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 0.0, 0.0, 50.0703125, 16.0 ],
+                    "varname": "act",
+                    "viewvisibility": 1
                 }
             }
         ],

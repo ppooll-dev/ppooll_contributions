@@ -4,15 +4,42 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 728.0, 88.0, 447.0, 335.0 ],
+        "rect": [ 621.0, 94.0, 447.0, 335.0 ],
         "toolbarvisible": 0,
         "globalpatchername": "r_seqh1",
         "boxes": [
+            {
+                "box": {
+                    "embedstate": [
+                        [ "boxsize", 14 ],
+                        [ "vbrgb", 0.0392156862745098, 0.0392156862745098, 0.0392156862745098, 1 ],
+                        [ "vfrgb", 1, 1, 1, 1 ],
+                        [ "vrgb2", 0.21568627450980393, 0.21568627450980393, 0.21568627450980393, 1 ],
+                        [ "vrgb3", 0.7058823529411765, 0.7058823529411765, 0.7058823529411765, 1 ]
+                    ],
+                    "filename": "ll.pattr_v8ui.js",
+                    "id": "obj-14",
+                    "jsarguments": [ "" ],
+                    "maxclass": "v8ui",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 60.0, 0.0, 332.0, 16.0 ],
+                    "textfile": {
+                        "filename": "ll.pattr_v8ui.js",
+                        "flags": 0,
+                        "embed": 0,
+                        "autowatch": 1
+                    },
+                    "varname": "presets"
+                }
+            },
             {
                 "box": {
                     "annotation": "ll.blues",
@@ -463,21 +490,6 @@
             },
             {
                 "box": {
-                    "annotation": "presets grid. click on ppooll in the ho_st to find info about it",
-                    "filename": "ll.pattr_ui.js",
-                    "id": "obj-180",
-                    "jsarguments": [ 14, "255 255 255", "10 10 10", "55 55 55", "180 180 180", "cll_cltl@1" ],
-                    "maxclass": "jsui",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 60.0, 0.0, 332.0, 16.0 ],
-                    "varname": "presets"
-                }
-            },
-            {
-                "box": {
                     "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
                     "fontname": "Arial",
                     "fontsize": 9.0,
@@ -571,7 +583,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "21323.snd_h",
+                    "buffername": "2254.snd_h",
                     "grid": 0.0,
                     "id": "obj-29",
                     "labels": 0,
@@ -629,7 +641,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "21323.snd_g",
+                    "buffername": "2254.snd_g",
                     "grid": 0.0,
                     "id": "obj-35",
                     "labels": 0,
@@ -687,7 +699,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "21323.snd_f",
+                    "buffername": "2254.snd_f",
                     "grid": 0.0,
                     "id": "obj-41",
                     "labels": 0,
@@ -803,7 +815,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "21323.snd_s",
+                    "buffername": "2254.snd_s",
                     "grid": 0.0,
                     "id": "obj-53",
                     "labels": 0,
@@ -861,7 +873,7 @@
                 "box": {
                     "beats": 0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "buffername": "21323.snd_a",
+                    "buffername": "2254.snd_a",
                     "grid": 0.0,
                     "id": "obj-60",
                     "labels": 0,
@@ -1395,7 +1407,7 @@
                         "presets": 0,
                         "act": 0,
                         "act::active_store": 0,
-                        "act::master/activest": 0,
+                        "act::master": 0,
                         "act::u751015509": 0,
                         "act::pres_menu": 0,
                         "act::tetris_menu": 0,
@@ -1492,7 +1504,7 @@
                         "pitch4": [ -11.0 ],
                         "pitch5": [ 0.0 ],
                         "pitch6": [ -16.0 ],
-                        "presets": [ 1 ],
+                        "presets": [ 0 ],
                         "prob1": [ 1.0 ],
                         "prob2": [ 1.0 ],
                         "prob3": [ 1.0 ],
@@ -1528,7 +1540,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1560,7 +1572,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1601,7 +1613,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -1735,7 +1747,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -1869,7 +1881,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2003,7 +2015,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2126,7 +2138,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2271,7 +2283,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2407,7 +2419,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2448,7 +2460,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 2,
+                                                                            "revision": 4,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -2665,7 +2677,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-2",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -2755,7 +2766,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-13",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -2978,7 +2988,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-39",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -2991,7 +3000,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-40",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -3162,7 +3170,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-54",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
@@ -3176,7 +3183,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-55",
-                                                                    "linecount": 2,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
@@ -3201,7 +3207,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-57",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
@@ -3632,7 +3637,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -3673,7 +3678,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 2,
+                                                                            "revision": 4,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -3890,7 +3895,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-2",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -3980,7 +3984,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-13",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -4203,7 +4206,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-39",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -4216,7 +4218,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-40",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -4387,7 +4388,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-54",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
@@ -4401,7 +4401,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-55",
-                                                                    "linecount": 2,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
@@ -4426,7 +4425,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-57",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
@@ -4857,7 +4855,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -4898,7 +4896,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 2,
+                                                                            "revision": 4,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -5115,7 +5113,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-2",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -5205,7 +5202,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-13",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -5428,7 +5424,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-39",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -5441,7 +5436,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-40",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -5612,7 +5606,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-54",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
@@ -5626,7 +5619,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-55",
-                                                                    "linecount": 2,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
@@ -5651,7 +5643,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-57",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
@@ -6082,7 +6073,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -6123,7 +6114,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 2,
+                                                                            "revision": 4,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -7300,7 +7291,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -7341,7 +7332,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 2,
+                                                                            "revision": 4,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -7558,7 +7549,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-2",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -7648,7 +7638,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-13",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -7871,7 +7860,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-39",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -7884,7 +7872,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-40",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 0,
@@ -8055,7 +8042,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-54",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
@@ -8069,7 +8055,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-55",
-                                                                    "linecount": 2,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
@@ -8094,7 +8079,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-57",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 2,
@@ -8514,7 +8498,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -8555,7 +8539,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 2,
+                                                                            "revision": 4,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -9992,7 +9976,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -10024,7 +10008,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -10433,7 +10417,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -10564,7 +10548,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -12766,7 +12750,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -14268,7 +14252,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -15770,7 +15754,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -17272,7 +17256,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -18845,7 +18829,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -18966,7 +18950,7 @@
                                                             {
                                                                 "box": {
                                                                     "coll_data": {
-                                                                        "count": 51,
+                                                                        "count": 48,
                                                                         "data": [
                                                                             {
                                                                                 "key": 0,
@@ -18986,191 +18970,179 @@
                                                                             },
                                                                             {
                                                                                 "key": 4,
-                                                                                "value": [ 615 ]
+                                                                                "value": [ 453 ]
                                                                             },
                                                                             {
                                                                                 "key": 5,
-                                                                                "value": [ 679 ]
+                                                                                "value": [ 517 ]
                                                                             },
                                                                             {
                                                                                 "key": 6,
-                                                                                "value": [ 743 ]
+                                                                                "value": [ 581 ]
                                                                             },
                                                                             {
                                                                                 "key": 7,
-                                                                                "value": [ 492 ]
+                                                                                "value": [ 645 ]
                                                                             },
                                                                             {
                                                                                 "key": 8,
-                                                                                "value": [ 524 ]
+                                                                                "value": [ 709 ]
                                                                             },
                                                                             {
                                                                                 "key": 9,
-                                                                                "value": [ 556 ]
+                                                                                "value": [ 773 ]
                                                                             },
                                                                             {
                                                                                 "key": 10,
-                                                                                "value": [ 620 ]
+                                                                                "value": [ 837 ]
                                                                             },
                                                                             {
                                                                                 "key": 11,
-                                                                                "value": [ 652 ]
+                                                                                "value": [ 901 ]
                                                                             },
                                                                             {
                                                                                 "key": 12,
-                                                                                "value": [ 684 ]
+                                                                                "value": [ 997 ]
                                                                             },
                                                                             {
                                                                                 "key": 13,
-                                                                                "value": [ 748 ]
+                                                                                "value": [ 84 ]
                                                                             },
                                                                             {
                                                                                 "key": 14,
-                                                                                "value": [ 780 ]
+                                                                                "value": [ 116 ]
                                                                             },
                                                                             {
                                                                                 "key": 15,
-                                                                                "value": [ 844 ]
+                                                                                "value": [ 148 ]
                                                                             },
                                                                             {
                                                                                 "key": 16,
-                                                                                "value": [ 876 ]
+                                                                                "value": [ 180 ]
                                                                             },
                                                                             {
                                                                                 "key": 17,
-                                                                                "value": [ 908 ]
+                                                                                "value": [ 212 ]
                                                                             },
                                                                             {
                                                                                 "key": 18,
-                                                                                "value": [ 276 ]
+                                                                                "value": [ 244 ]
                                                                             },
                                                                             {
                                                                                 "key": 19,
-                                                                                "value": [ 308 ]
+                                                                                "value": [ 276 ]
                                                                             },
                                                                             {
                                                                                 "key": 20,
-                                                                                "value": [ 372 ]
+                                                                                "value": [ 340 ]
                                                                             },
                                                                             {
                                                                                 "key": 21,
-                                                                                "value": [ 404 ]
+                                                                                "value": [ 372 ]
                                                                             },
                                                                             {
                                                                                 "key": 22,
-                                                                                "value": [ 468 ]
+                                                                                "value": [ 404 ]
                                                                             },
                                                                             {
                                                                                 "key": 23,
-                                                                                "value": [ 532 ]
+                                                                                "value": [ 436 ]
                                                                             },
                                                                             {
                                                                                 "key": 24,
-                                                                                "value": [ 564 ]
+                                                                                "value": [ 302 ]
                                                                             },
                                                                             {
                                                                                 "key": 25,
-                                                                                "value": [ 628 ]
+                                                                                "value": [ 366 ]
                                                                             },
                                                                             {
                                                                                 "key": 26,
-                                                                                "value": [ 692 ]
+                                                                                "value": [ 462 ]
                                                                             },
                                                                             {
                                                                                 "key": 27,
-                                                                                "value": [ 724 ]
+                                                                                "value": [ 526 ]
                                                                             },
                                                                             {
                                                                                 "key": 28,
-                                                                                "value": [ 788 ]
+                                                                                "value": [ 622 ]
                                                                             },
                                                                             {
                                                                                 "key": 29,
-                                                                                "value": [ 852 ]
+                                                                                "value": [ 686 ]
                                                                             },
                                                                             {
                                                                                 "key": 30,
-                                                                                "value": [ 884 ]
+                                                                                "value": [ 782 ]
                                                                             },
                                                                             {
                                                                                 "key": 31,
-                                                                                "value": [ 207 ]
+                                                                                "value": [ 846 ]
                                                                             },
                                                                             {
                                                                                 "key": 32,
-                                                                                "value": [ 239 ]
+                                                                                "value": [ 910 ]
                                                                             },
                                                                             {
                                                                                 "key": 33,
-                                                                                "value": [ 303 ]
+                                                                                "value": [ 202 ]
                                                                             },
                                                                             {
                                                                                 "key": 34,
-                                                                                "value": [ 335 ]
+                                                                                "value": [ 234 ]
                                                                             },
                                                                             {
                                                                                 "key": 35,
-                                                                                "value": [ 399 ]
+                                                                                "value": [ 266 ]
                                                                             },
                                                                             {
                                                                                 "key": 36,
-                                                                                "value": [ 463 ]
+                                                                                "value": [ 298 ]
                                                                             },
                                                                             {
                                                                                 "key": 37,
-                                                                                "value": [ 495 ]
+                                                                                "value": [ 330 ]
                                                                             },
                                                                             {
                                                                                 "key": 38,
-                                                                                "value": [ 559 ]
+                                                                                "value": [ 362 ]
                                                                             },
                                                                             {
                                                                                 "key": 39,
-                                                                                "value": [ 623 ]
+                                                                                "value": [ 394 ]
                                                                             },
                                                                             {
                                                                                 "key": 40,
-                                                                                "value": [ 655 ]
+                                                                                "value": [ 426 ]
                                                                             },
                                                                             {
                                                                                 "key": 41,
-                                                                                "value": [ 719 ]
+                                                                                "value": [ 458 ]
                                                                             },
                                                                             {
                                                                                 "key": 42,
-                                                                                "value": [ 378 ]
+                                                                                "value": [ 522 ]
                                                                             },
                                                                             {
                                                                                 "key": 43,
-                                                                                "value": [ 410 ]
+                                                                                "value": [ 585 ]
                                                                             },
                                                                             {
                                                                                 "key": 44,
-                                                                                "value": [ 474 ]
+                                                                                "value": [ 713 ]
                                                                             },
                                                                             {
                                                                                 "key": 45,
-                                                                                "value": [ 538 ]
+                                                                                "value": [ 593 ]
                                                                             },
                                                                             {
                                                                                 "key": 46,
-                                                                                "value": [ 602 ]
+                                                                                "value": [ 785 ]
                                                                             },
                                                                             {
                                                                                 "key": 47,
-                                                                                "value": [ 666 ]
-                                                                            },
-                                                                            {
-                                                                                "key": 48,
-                                                                                "value": [ 698 ]
-                                                                            },
-                                                                            {
-                                                                                "key": 49,
-                                                                                "value": [ 762 ]
-                                                                            },
-                                                                            {
-                                                                                "key": 50,
-                                                                                "value": [ 794 ]
+                                                                                "value": [ 945 ]
                                                                             }
                                                                         ]
                                                                     },
@@ -19595,7 +19567,7 @@
                                                             {
                                                                 "box": {
                                                                     "coll_data": {
-                                                                        "count": 51,
+                                                                        "count": 48,
                                                                         "data": [
                                                                             {
                                                                                 "key": 0,
@@ -19615,191 +19587,179 @@
                                                                             },
                                                                             {
                                                                                 "key": 4,
-                                                                                "value": [ 615 ]
+                                                                                "value": [ 453 ]
                                                                             },
                                                                             {
                                                                                 "key": 5,
-                                                                                "value": [ 679 ]
+                                                                                "value": [ 517 ]
                                                                             },
                                                                             {
                                                                                 "key": 6,
-                                                                                "value": [ 743 ]
+                                                                                "value": [ 581 ]
                                                                             },
                                                                             {
                                                                                 "key": 7,
-                                                                                "value": [ 492 ]
+                                                                                "value": [ 645 ]
                                                                             },
                                                                             {
                                                                                 "key": 8,
-                                                                                "value": [ 524 ]
+                                                                                "value": [ 709 ]
                                                                             },
                                                                             {
                                                                                 "key": 9,
-                                                                                "value": [ 556 ]
+                                                                                "value": [ 773 ]
                                                                             },
                                                                             {
                                                                                 "key": 10,
-                                                                                "value": [ 620 ]
+                                                                                "value": [ 837 ]
                                                                             },
                                                                             {
                                                                                 "key": 11,
-                                                                                "value": [ 652 ]
+                                                                                "value": [ 901 ]
                                                                             },
                                                                             {
                                                                                 "key": 12,
-                                                                                "value": [ 684 ]
+                                                                                "value": [ 997 ]
                                                                             },
                                                                             {
                                                                                 "key": 13,
-                                                                                "value": [ 748 ]
+                                                                                "value": [ 84 ]
                                                                             },
                                                                             {
                                                                                 "key": 14,
-                                                                                "value": [ 780 ]
+                                                                                "value": [ 116 ]
                                                                             },
                                                                             {
                                                                                 "key": 15,
-                                                                                "value": [ 844 ]
+                                                                                "value": [ 148 ]
                                                                             },
                                                                             {
                                                                                 "key": 16,
-                                                                                "value": [ 876 ]
+                                                                                "value": [ 180 ]
                                                                             },
                                                                             {
                                                                                 "key": 17,
-                                                                                "value": [ 908 ]
+                                                                                "value": [ 212 ]
                                                                             },
                                                                             {
                                                                                 "key": 18,
-                                                                                "value": [ 276 ]
+                                                                                "value": [ 244 ]
                                                                             },
                                                                             {
                                                                                 "key": 19,
-                                                                                "value": [ 308 ]
+                                                                                "value": [ 276 ]
                                                                             },
                                                                             {
                                                                                 "key": 20,
-                                                                                "value": [ 372 ]
+                                                                                "value": [ 340 ]
                                                                             },
                                                                             {
                                                                                 "key": 21,
-                                                                                "value": [ 404 ]
+                                                                                "value": [ 372 ]
                                                                             },
                                                                             {
                                                                                 "key": 22,
-                                                                                "value": [ 468 ]
+                                                                                "value": [ 404 ]
                                                                             },
                                                                             {
                                                                                 "key": 23,
-                                                                                "value": [ 532 ]
+                                                                                "value": [ 436 ]
                                                                             },
                                                                             {
                                                                                 "key": 24,
-                                                                                "value": [ 564 ]
+                                                                                "value": [ 302 ]
                                                                             },
                                                                             {
                                                                                 "key": 25,
-                                                                                "value": [ 628 ]
+                                                                                "value": [ 366 ]
                                                                             },
                                                                             {
                                                                                 "key": 26,
-                                                                                "value": [ 692 ]
+                                                                                "value": [ 462 ]
                                                                             },
                                                                             {
                                                                                 "key": 27,
-                                                                                "value": [ 724 ]
+                                                                                "value": [ 526 ]
                                                                             },
                                                                             {
                                                                                 "key": 28,
-                                                                                "value": [ 788 ]
+                                                                                "value": [ 622 ]
                                                                             },
                                                                             {
                                                                                 "key": 29,
-                                                                                "value": [ 852 ]
+                                                                                "value": [ 686 ]
                                                                             },
                                                                             {
                                                                                 "key": 30,
-                                                                                "value": [ 884 ]
+                                                                                "value": [ 782 ]
                                                                             },
                                                                             {
                                                                                 "key": 31,
-                                                                                "value": [ 207 ]
+                                                                                "value": [ 846 ]
                                                                             },
                                                                             {
                                                                                 "key": 32,
-                                                                                "value": [ 239 ]
+                                                                                "value": [ 910 ]
                                                                             },
                                                                             {
                                                                                 "key": 33,
-                                                                                "value": [ 303 ]
+                                                                                "value": [ 202 ]
                                                                             },
                                                                             {
                                                                                 "key": 34,
-                                                                                "value": [ 335 ]
+                                                                                "value": [ 234 ]
                                                                             },
                                                                             {
                                                                                 "key": 35,
-                                                                                "value": [ 399 ]
+                                                                                "value": [ 266 ]
                                                                             },
                                                                             {
                                                                                 "key": 36,
-                                                                                "value": [ 463 ]
+                                                                                "value": [ 298 ]
                                                                             },
                                                                             {
                                                                                 "key": 37,
-                                                                                "value": [ 495 ]
+                                                                                "value": [ 330 ]
                                                                             },
                                                                             {
                                                                                 "key": 38,
-                                                                                "value": [ 559 ]
+                                                                                "value": [ 362 ]
                                                                             },
                                                                             {
                                                                                 "key": 39,
-                                                                                "value": [ 623 ]
+                                                                                "value": [ 394 ]
                                                                             },
                                                                             {
                                                                                 "key": 40,
-                                                                                "value": [ 655 ]
+                                                                                "value": [ 426 ]
                                                                             },
                                                                             {
                                                                                 "key": 41,
-                                                                                "value": [ 719 ]
+                                                                                "value": [ 458 ]
                                                                             },
                                                                             {
                                                                                 "key": 42,
-                                                                                "value": [ 378 ]
+                                                                                "value": [ 522 ]
                                                                             },
                                                                             {
                                                                                 "key": 43,
-                                                                                "value": [ 410 ]
+                                                                                "value": [ 585 ]
                                                                             },
                                                                             {
                                                                                 "key": 44,
-                                                                                "value": [ 474 ]
+                                                                                "value": [ 713 ]
                                                                             },
                                                                             {
                                                                                 "key": 45,
-                                                                                "value": [ 538 ]
+                                                                                "value": [ 593 ]
                                                                             },
                                                                             {
                                                                                 "key": 46,
-                                                                                "value": [ 602 ]
+                                                                                "value": [ 785 ]
                                                                             },
                                                                             {
                                                                                 "key": 47,
-                                                                                "value": [ 666 ]
-                                                                            },
-                                                                            {
-                                                                                "key": 48,
-                                                                                "value": [ 698 ]
-                                                                            },
-                                                                            {
-                                                                                "key": 49,
-                                                                                "value": [ 762 ]
-                                                                            },
-                                                                            {
-                                                                                "key": 50,
-                                                                                "value": [ 794 ]
+                                                                                "value": [ 945 ]
                                                                             }
                                                                         ]
                                                                     },
@@ -19926,7 +19886,7 @@
                                                             {
                                                                 "box": {
                                                                     "coll_data": {
-                                                                        "count": 51,
+                                                                        "count": 48,
                                                                         "data": [
                                                                             {
                                                                                 "key": 0,
@@ -19946,191 +19906,179 @@
                                                                             },
                                                                             {
                                                                                 "key": 4,
-                                                                                "value": [ 615 ]
+                                                                                "value": [ 453 ]
                                                                             },
                                                                             {
                                                                                 "key": 5,
-                                                                                "value": [ 679 ]
+                                                                                "value": [ 517 ]
                                                                             },
                                                                             {
                                                                                 "key": 6,
-                                                                                "value": [ 743 ]
+                                                                                "value": [ 581 ]
                                                                             },
                                                                             {
                                                                                 "key": 7,
-                                                                                "value": [ 492 ]
+                                                                                "value": [ 645 ]
                                                                             },
                                                                             {
                                                                                 "key": 8,
-                                                                                "value": [ 524 ]
+                                                                                "value": [ 709 ]
                                                                             },
                                                                             {
                                                                                 "key": 9,
-                                                                                "value": [ 556 ]
+                                                                                "value": [ 773 ]
                                                                             },
                                                                             {
                                                                                 "key": 10,
-                                                                                "value": [ 620 ]
+                                                                                "value": [ 837 ]
                                                                             },
                                                                             {
                                                                                 "key": 11,
-                                                                                "value": [ 652 ]
+                                                                                "value": [ 901 ]
                                                                             },
                                                                             {
                                                                                 "key": 12,
-                                                                                "value": [ 684 ]
+                                                                                "value": [ 997 ]
                                                                             },
                                                                             {
                                                                                 "key": 13,
-                                                                                "value": [ 748 ]
+                                                                                "value": [ 84 ]
                                                                             },
                                                                             {
                                                                                 "key": 14,
-                                                                                "value": [ 780 ]
+                                                                                "value": [ 116 ]
                                                                             },
                                                                             {
                                                                                 "key": 15,
-                                                                                "value": [ 844 ]
+                                                                                "value": [ 148 ]
                                                                             },
                                                                             {
                                                                                 "key": 16,
-                                                                                "value": [ 876 ]
+                                                                                "value": [ 180 ]
                                                                             },
                                                                             {
                                                                                 "key": 17,
-                                                                                "value": [ 908 ]
+                                                                                "value": [ 212 ]
                                                                             },
                                                                             {
                                                                                 "key": 18,
-                                                                                "value": [ 276 ]
+                                                                                "value": [ 244 ]
                                                                             },
                                                                             {
                                                                                 "key": 19,
-                                                                                "value": [ 308 ]
+                                                                                "value": [ 276 ]
                                                                             },
                                                                             {
                                                                                 "key": 20,
-                                                                                "value": [ 372 ]
+                                                                                "value": [ 340 ]
                                                                             },
                                                                             {
                                                                                 "key": 21,
-                                                                                "value": [ 404 ]
+                                                                                "value": [ 372 ]
                                                                             },
                                                                             {
                                                                                 "key": 22,
-                                                                                "value": [ 468 ]
+                                                                                "value": [ 404 ]
                                                                             },
                                                                             {
                                                                                 "key": 23,
-                                                                                "value": [ 532 ]
+                                                                                "value": [ 436 ]
                                                                             },
                                                                             {
                                                                                 "key": 24,
-                                                                                "value": [ 564 ]
+                                                                                "value": [ 302 ]
                                                                             },
                                                                             {
                                                                                 "key": 25,
-                                                                                "value": [ 628 ]
+                                                                                "value": [ 366 ]
                                                                             },
                                                                             {
                                                                                 "key": 26,
-                                                                                "value": [ 692 ]
+                                                                                "value": [ 462 ]
                                                                             },
                                                                             {
                                                                                 "key": 27,
-                                                                                "value": [ 724 ]
+                                                                                "value": [ 526 ]
                                                                             },
                                                                             {
                                                                                 "key": 28,
-                                                                                "value": [ 788 ]
+                                                                                "value": [ 622 ]
                                                                             },
                                                                             {
                                                                                 "key": 29,
-                                                                                "value": [ 852 ]
+                                                                                "value": [ 686 ]
                                                                             },
                                                                             {
                                                                                 "key": 30,
-                                                                                "value": [ 884 ]
+                                                                                "value": [ 782 ]
                                                                             },
                                                                             {
                                                                                 "key": 31,
-                                                                                "value": [ 207 ]
+                                                                                "value": [ 846 ]
                                                                             },
                                                                             {
                                                                                 "key": 32,
-                                                                                "value": [ 239 ]
+                                                                                "value": [ 910 ]
                                                                             },
                                                                             {
                                                                                 "key": 33,
-                                                                                "value": [ 303 ]
+                                                                                "value": [ 202 ]
                                                                             },
                                                                             {
                                                                                 "key": 34,
-                                                                                "value": [ 335 ]
+                                                                                "value": [ 234 ]
                                                                             },
                                                                             {
                                                                                 "key": 35,
-                                                                                "value": [ 399 ]
+                                                                                "value": [ 266 ]
                                                                             },
                                                                             {
                                                                                 "key": 36,
-                                                                                "value": [ 463 ]
+                                                                                "value": [ 298 ]
                                                                             },
                                                                             {
                                                                                 "key": 37,
-                                                                                "value": [ 495 ]
+                                                                                "value": [ 330 ]
                                                                             },
                                                                             {
                                                                                 "key": 38,
-                                                                                "value": [ 559 ]
+                                                                                "value": [ 362 ]
                                                                             },
                                                                             {
                                                                                 "key": 39,
-                                                                                "value": [ 623 ]
+                                                                                "value": [ 394 ]
                                                                             },
                                                                             {
                                                                                 "key": 40,
-                                                                                "value": [ 655 ]
+                                                                                "value": [ 426 ]
                                                                             },
                                                                             {
                                                                                 "key": 41,
-                                                                                "value": [ 719 ]
+                                                                                "value": [ 458 ]
                                                                             },
                                                                             {
                                                                                 "key": 42,
-                                                                                "value": [ 378 ]
+                                                                                "value": [ 522 ]
                                                                             },
                                                                             {
                                                                                 "key": 43,
-                                                                                "value": [ 410 ]
+                                                                                "value": [ 585 ]
                                                                             },
                                                                             {
                                                                                 "key": 44,
-                                                                                "value": [ 474 ]
+                                                                                "value": [ 713 ]
                                                                             },
                                                                             {
                                                                                 "key": 45,
-                                                                                "value": [ 538 ]
+                                                                                "value": [ 593 ]
                                                                             },
                                                                             {
                                                                                 "key": 46,
-                                                                                "value": [ 602 ]
+                                                                                "value": [ 785 ]
                                                                             },
                                                                             {
                                                                                 "key": 47,
-                                                                                "value": [ 666 ]
-                                                                            },
-                                                                            {
-                                                                                "key": 48,
-                                                                                "value": [ 698 ]
-                                                                            },
-                                                                            {
-                                                                                "key": 49,
-                                                                                "value": [ 762 ]
-                                                                            },
-                                                                            {
-                                                                                "key": 50,
-                                                                                "value": [ 794 ]
+                                                                                "value": [ 945 ]
                                                                             }
                                                                         ]
                                                                     },
@@ -20807,7 +20755,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 2,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -20912,7 +20860,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-49",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -21132,7 +21079,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-8",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -21294,7 +21240,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-20",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -21443,7 +21388,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-31",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -21578,7 +21522,6 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 9.0,
                                                                     "id": "obj-41",
-                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 4,
@@ -23053,27 +22996,6 @@
             },
             {
                 "box": {
-                    "args": [ "r_seqh", "§ffffff" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-87",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "actmakeB.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 0.0, 0.0, 57.69921875, 16.0 ],
-                    "varname": "act",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "hidden": 1,
                     "id": "obj-111",
                     "maxclass": "newobj",
@@ -23096,6 +23018,27 @@
                     "outlettype": [ "list", "list", "int", "" ],
                     "patching_rect": [ 158.0, 16.0, 289.0, 291.0 ],
                     "varname": "seqhous"
+                }
+            },
+            {
+                "box": {
+                    "args": [ "r_seqh", "§ffffff" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-10",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "act.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 0.0, 0.0, 57.69921875, 16.0 ],
+                    "varname": "act",
+                    "viewvisibility": 1
                 }
             }
         ],

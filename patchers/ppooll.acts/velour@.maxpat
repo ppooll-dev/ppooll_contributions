@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -15,6 +15,33 @@
         "enablevscroll": 0,
         "globalpatchername": "velour@1",
         "boxes": [
+            {
+                "box": {
+                    "embedstate": [
+                        [ "boxsize", 13 ],
+                        [ "vbrgb", 0.19607843137254902, 0.19607843137254902, 0.19607843137254902, 1 ],
+                        [ "vfrgb", 1, 1, 1, 1 ],
+                        [ "vrgb2", 1, 0, 0, 1 ],
+                        [ "vrgb3", 0, 1, 0, 1 ]
+                    ],
+                    "filename": "ll.pattr_v8ui.js",
+                    "id": "obj-11",
+                    "jsarguments": [ "" ],
+                    "maxclass": "v8ui",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 66.0, 0.0, 85.0, 29.0 ],
+                    "textfile": {
+                        "filename": "ll.pattr_v8ui.js",
+                        "flags": 0,
+                        "embed": 0,
+                        "autowatch": 1
+                    },
+                    "varname": "presets"
+                }
+            },
             {
                 "box": {
                     "bgcolor": [ 0.603921568627451, 0.470588235294118, 0.72156862745098, 1.0 ],
@@ -64,20 +91,6 @@
                     "text": "transient shapes",
                     "textcolor": [ 0.050980392156863, 0.007843137254902, 0.074509803921569, 1.0 ],
                     "textjustification": 0
-                }
-            },
-            {
-                "box": {
-                    "filename": "ll.pattr_ui.js",
-                    "id": "obj-29",
-                    "jsarguments": [ 13, "255 255 255", "50 50 50", "255 0 0", "0 255 0" ],
-                    "maxclass": "jsui",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 66.0, 0.0, 85.0, 29.0 ],
-                    "varname": "presets"
                 }
             },
             {
@@ -381,7 +394,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1710,7 +1723,7 @@
                         "presets": 0,
                         "act": 0,
                         "act::active_store": 0,
-                        "act::master/activest": 0,
+                        "act::master": 0,
                         "act::u751015509": 0,
                         "act::pres_menu": 0,
                         "act::tetris_menu": 0,
@@ -1801,7 +1814,7 @@
                         "gain": [ 0.0 ],
                         "genthreshold": [ 0.5 ],
                         "preset-ramp": [ 0.0 ],
-                        "presets": [ 11 ],
+                        "presets": [ 0 ],
                         "sinc": [ -1 ],
                         "sine": [ -1 ],
                         "sing": [ -1 ],
@@ -1811,27 +1824,6 @@
                     },
                     "text": "autopattr autopattr",
                     "varname": "autopattr"
-                }
-            },
-            {
-                "box": {
-                    "args": [ "velour@", "§a01a96" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-9",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "actmakeB.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 0.0, 0.0, 66.06054306030273, 16.0 ],
-                    "varname": "act",
-                    "viewvisibility": 1
                 }
             },
             {
@@ -1860,6 +1852,27 @@
                     "numoutlets": 0,
                     "patching_rect": [ 0.0, 29.0, 151.0, 70.0 ],
                     "varname": "screen"
+                }
+            },
+            {
+                "box": {
+                    "args": [ "velour@", "§a01a96" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-7",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "act.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 0.0, 0.0, 66.06054306030273, 16.0 ],
+                    "varname": "act",
+                    "viewvisibility": 1
                 }
             }
         ],
